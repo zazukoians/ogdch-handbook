@@ -1,49 +1,54 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Publizieren <../publizieren>` :fa:`chevron-right`
-   - :doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`
-   - Informationen zur Organisation ergänzen
+   [Handbuch](../../../index.md) 
 
-***************************************
-Informationen zur Organisation ergänzen
-***************************************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Publizieren](../publizieren.md) 
 
-Was muss ich bei Informationen zu meiner Organisation beachten?
-===============================================================
+  ```
+  :fa:`chevron-right`
+  ```
+- [Erst-Publizierende](../erstpublizierende.md) 
 
-.. container:: Intro
+  ```
+  :fa:`chevron-right`
+  ```
+- Informationen zur Organisation ergänzen
 
-    Die Organisation legen wir für Sie an. Die Organisationsseite ergänzen Sie
-    anschliessend mit Informationen. Diese Angaben werden später auf
-    opendata.swiss veröffentlicht. Die Informationen umfassen den Titel
-    Ihrer Organisation, eine Beschreibung und ein Bild und den Link zur Website  der Organisation.
-    Im :term:`Frontend <Frontend>` der Abnahmeumgebung sehen Sie, wie die
-    Informationen auf opendata.swiss aussehen werden.
+# Informationen zur Organisation ergänzen
 
-Die Schritte auf einen Blick
-----------------------------
+## Was muss ich bei Informationen zu meiner Organisation beachten?
 
-- :ref:`Angaben zur Organisation ergänzen <organisation_bearbeiten>`
-- :ref:`Ansicht der Organisation prüfen <organisations_ansicht_pruefen>`
+Die Organisation legen wir für Sie an. Die Organisationsseite ergänzen Sie
+anschliessend mit Informationen. Diese Angaben werden später auf
+opendata.swiss veröffentlicht. Die Informationen umfassen den Titel
+Ihrer Organisation, eine Beschreibung und ein Bild und den Link zur Website  der Organisation.
+Im [Frontend](../../glossar/begriffe.md#term-Frontend) der Abnahmeumgebung sehen Sie, wie die
+Informationen auf opendata.swiss aussehen werden.
 
-.. _organisation_bearbeiten:
+### Die Schritte auf einen Blick
 
-Informationen zur Organisation ergänzen
-----------------------------------------
+- [Angaben zur Organisation ergänzen](#organisation-bearbeiten)
+- [Ansicht der Organisation prüfen](#organisations-ansicht-pruefen)
+
+<a id="organisation-bearbeiten"></a>
+
+### Informationen zur Organisation ergänzen
 
 Um die Informationen zu Ihrer Organisation ergänzen zu können, müssen Sie die Rolle des Administrators
 in Ihrer Organisation besitzen. (Mehrere Benutzerinnen und Benutzer einer Organisation können die Administrator-Rolle
 haben.) Wenn Sie auf Ihre Organisation gehen, sehen Sie als Administrator
 den Button «Bearbeiten». Hier können Sie die Felder zu Ihrer Organisation ausfüllen.
 
-.. figure:: ../../../_static/images/publizieren/organisation/organisation-bearbeiten.png
-   :alt: Bearbeiten der Organisation im Backend von opendata.swiss
+![Bearbeiten der Organisation im Backend von opendata.swiss](_static/images/publizieren/organisation/organisation-bearbeiten.png)
 
 Klicken Sie darauf, um das Webformular für Ihre Organisation zu öffnen:
 
-.. figure:: ../../../_static/images/publizieren/organisation/organisations-titel-und-slug.png
-   :alt: Organisationstitel und Slug
+![Organisationstitel und Slug](_static/images/publizieren/organisation/organisations-titel-und-slug.png)
 
 Bei «Titel (EN) (DE) (FR) (IT)» geben Sie bitte einen Titel respektive den offiziellen Namen
 Ihrer Organisation an.
@@ -51,18 +56,15 @@ Alle Bundesstellen müssen die Angaben mindestens auf Deutsch und Französisch e
 wären allerdings alle vier Sprachen. Weitere Organisationen müssen Titel und Beschreibung in
 mindestens einer Sprache eingeben.
 
-Der sogenannte :term:`«Name/Slug» <Slug>` Ihrer Organisation wird von uns vergeben
+Der sogenannte [«Name/Slug»](../../glossar/begriffe.md#term-Slug) Ihrer Organisation wird von uns vergeben
 und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
 Dieser kann bei Bedarf editiert werden, beachten Sie bitte, dass er nur Kleinbuchstaben (ASCII)
-und diese Zeichen: ``-``, ``_`` enthalten darf.
+und diese Zeichen: `-`, `_` enthalten darf.
 
-.. container:: important
+Wichtig: Der interne Organisations-Titel darf nicht mehr verändert werden,
+sobald Sie Datasets veröffentlicht haben.
 
-    Wichtig: Der interne Organisations-Titel darf nicht mehr verändert werden,
-    sobald Sie Datasets veröffentlicht haben.
-
-.. figure:: ../../../_static/images/publizieren/organisation/organisations-beschreibung.png
-   :alt: Organisationsbeschreibung
+![Organisationsbeschreibung](_static/images/publizieren/organisation/organisations-beschreibung.png)
 
 Bei «Beschreibung (EN) (DE) (FR) (IT)» geben Sie bitte eine Beschreibung Ihrer Organisation an.
 Alle Bundesstellen müssen die Angaben mindestens auf
@@ -71,8 +73,7 @@ wären allerdings alle vier Sprachen. Weitere
 Organisationen müssen Titel und Beschreibung
 in mindestens einer Sprache eingeben
 
-.. figure:: ../../../_static/images/publizieren/organisation/organisations-formular.png
-   :alt: Organisation: URL und weitere Felder
+![Organisation: URL und weitere Felder](_static/images/publizieren/organisation/organisations-formular.png)
 
 Geben Sie bitte die «politische Ebene» an, auf der Ihre Organisation angesiedelt ist.
 Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits auf
@@ -84,49 +85,33 @@ Bitte wählen Sie ein «Bild» Ihrer Organisation aus
 und verlinken Sie es im Feld «Link» oder laden Sie es hoch.
 So erhält Ihre Organisation eine bessere Präsenz auf opendata.swiss.
 
-.. container:: important
+Vergessen Sie nicht, Ihre Änderungen abschliessend zu speichern
+indem Sie auf «Organisation speichern» klicken.
 
-    Vergessen Sie nicht, Ihre Änderungen abschliessend zu speichern
-    indem Sie auf «Organisation speichern» klicken.
+<a id="organisations-ansicht-pruefen"></a>
 
-.. _organisations_ansicht_pruefen:
-
-Ansicht der Organisation prüfen
---------------------------------
+### Ansicht der Organisation prüfen
 
 Überprüfen Sie die Angaben zu Ihrer Organisation: Nachdem Sie die Angaben zu Ihrer Organisation ergänzt haben,
 klicken Sie auf den Info-Tab «Über das Portal».
 
-.. figure:: ../../../_static/images/publizieren/organisation/organisations-info-ansehen.png
-   :alt: Organisation im Backend ansehen
+![Organisation im Backend ansehen](_static/images/publizieren/organisation/organisations-info-ansehen.png)
 
-Damit gelangen Sie zur Detailansicht Ihrer Organisation im :term:`Backend <Backend>`:
+Damit gelangen Sie zur Detailansicht Ihrer Organisation im [Backend](../../glossar/begriffe.md#term-Backend):
 
-.. figure:: ../../../_static/images/publizieren/organisation/organisation-pruefen-backend.png
-   :alt: Organisation im Backend
+![Organisation im Backend](_static/images/publizieren/organisation/organisation-pruefen-backend.png)
 
 Anschliessend können Sie sich die Darstellung Ihre Organisation im
-:term:`Frontend <Frontend>` der :term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss ansehen:
+[Frontend](../../glossar/begriffe.md#term-Frontend) der [Abnahmeumgebung](../../glossar/begriffe.md#term-Abnahmeumgebung) von opendata.swiss ansehen:
 
 Sie gelangen zur Datenansicht Ihrer Organisation im Frontend, indem Sie
-``ckan`` aus der Backend-URL Ihrer Organisation entfernen:
+`ckan` aus der Backend-URL Ihrer Organisation entfernen:
 
-.. figure:: ../../../_static/images/publizieren/organisation/ckan-organisations-url.png
-   :alt: CKAN URL einer Organisation
+![CKAN URL einer Organisation](_static/images/publizieren/organisation/ckan-organisations-url.png)![Frontend URL einer Organisation](_static/images/publizieren/organisation/frontend-organisations-url.png)![Organisation im Frontend](_static/images/publizieren/organisation/organisation-frontend.png)
 
-.. figure:: ../../../_static/images/publizieren/organisation/frontend-organisations-url.png
-   :alt: Frontend URL einer Organisation
+Beispielansicht einer Organisation im Frontend von opendata.swiss
 
-.. figure:: ../../../_static/images/publizieren/organisation/organisation-frontend.png
-   :alt: Organisation im Frontend
-
-.. container:: bildunterschrift
-
-   Beispielansicht einer Organisation im Frontend von opendata.swiss
-
-.. container:: teaser
-
-   :doc:`Nächster Schritt: Publikationsvariante auswählen <../publikationsvariante>`
+[Nächster Schritt: Publikationsvariante auswählen](../publikationsvariante.md)
 
 Nachdem Sie Ihr Profil und Ihre Organisation eingerichtet haben,
 können Sie als nächsten Schritt eine Publikationsvariante

@@ -1,32 +1,29 @@
-.. Handbuch Opendata.swiss documentation master file, created by
-   sphinx-quickstart on Wed Jan  8 16:52:47 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+<!-- Handbuch Opendata.swiss documentation master file, created by
+sphinx-quickstart on Wed Jan  8 16:52:47 2020.
+You can adapt this file completely to your liking, but it should at least
+contain the root `toctree` directive. -->
+- ```
+  :fa:`home`
+  ```
 
-.. container:: custom-breadcrumbs
+   Handbuch
 
-   - :fa:`home` Handbuch
+# Willkommen
 
-**********
-Willkommen
-**********
-
-Schön, dass Sie Open Government Data publizieren möchten! Wir unterstützen Sie dabei.
-=====================================================================================
+## Schön, dass Sie Open Government Data publizieren möchten! Wir unterstützen Sie dabei.
 
 Dieses Handbuch hilft Personen und Organisationen dabei,
 Daten als Open Government Data (OGD) zu veröffentlichen.
 Es wird von der
-:term:`Open Government Data (OGD) <Open Government Data>`
+[Open Government Data (OGD)](content/glossar/begriffe.md#term-Open-Government-Data)
 beim Bundesamt für Statistik (BFS) als Massnahme zur
 Umsetzung der Strategie
-`«Open Government Data 2019-2023» <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html>`__
+[«Open Government Data 2019-2023»](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html)
 betrieben. Dieses Handbuch ist als dynamisches
 Dokument zu verstehen: Es wird kontinuierlich aktualisiert
 und überarbeitet.
 
-Wie nutze ich dieses Handbuch?
-==============================
+## Wie nutze ich dieses Handbuch?
 
 Alle Inhalte sind nach unserem Publikationsprozess gegliedert:
 Zuerst werden die Datasets für die Publikation vorbereitet,
@@ -35,125 +32,85 @@ veröffentlichten Daten gehört ebenfalls zum Prozess. In den
 einzelnen Kapiteln finden Sie praxisnahe Anleitungen, die Sie
 durch den Prozess führen; vertiefte Informationen stehen Ihnen
 jeweils am Ende jeder Seite in Form von pdfs und Links zur
-Verfügung. Das :doc:`Glossar <content/glossar/begriffe>` enthält
+Verfügung. Das [Glossar](content/glossar/begriffe.md) enthält
 Definitionen der wichtigsten Begriffe.
 
-Vor dem Start
-=============
+## Vor dem Start
 
 Erstpublizierenden empfehlen wir, sich vorab mit opendata.swiss
 vertraut zu machen. In unserer
-:doc:`kurzen Einführung für Erst-Publizierende <content/vorbereiten/erstpublizierende>`
+[kurzen Einführung für Erst-Publizierende](content/vorbereiten/erstpublizierende.md)
 erhalten Sie grundlegende Informationen zum Prozess und praktische
 Hilfestellung, um beispielsweise geeignete Daten in
 Ihrer Organisation zu identifizieren. Erfahrene Datenpublizierende
-können direkt mit dem :doc:`Publikationsprozess <content/publizieren/publizieren>` starten.
+können direkt mit dem [Publikationsprozess](content/publizieren/publizieren.md) starten.
 
-Wie möchten Sie beginnen?
--------------------------
+### Wie möchten Sie beginnen?
 
-- :doc:`opendata.swiss verstehen – Für Erstpublizierende <content/vorbereiten/erstpublizierende/opendata-swiss-verstehen>`
-- :doc:`Daten vorbereiten <content/vorbereiten/publikationsrichtlinien>`
-- :doc:`Daten publizieren <content/publizieren/publizieren>`
+- [opendata.swiss verstehen – Für Erstpublizierende](content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.md)
+- [Daten vorbereiten](content/vorbereiten/publikationsrichtlinien.md)
+- [Daten publizieren](content/publizieren/publizieren.md)
 
-Sie möchten keine Daten publizieren, sondern nutzen?
-----------------------------------------------------
+### Sie möchten keine Daten publizieren, sondern nutzen?
 
-- :doc:`Daten nutzen <content/nutzen/nutzen>`
+- [Daten nutzen](content/nutzen/nutzen.md)
 
-Wir unterstützen Sie. Unterstützen auch Sie uns.
-================================================
+## Wir unterstützen Sie. Unterstützen auch Sie uns.
 
 Dieses Handbuch ist ein dynamisches Dokument, das sich
 kontinuierlich weiterentwickelt. Ihr Feedback, liebe
 Nutzerinnen und Nutzer, ist dafür wesentlich. Haben Sie
 Anregungen zu Inhalten oder Erfahrungen, die Sie gerne
 mit uns teilen möchten?
-`Schreiben Sie uns. <mailto:opendata(at)bfs.admin.ch>`__
+[Schreiben Sie uns.](mailto:opendata(at)bfs.admin.ch)
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Vorbereiten
+## Vorbereiten
 
-   content/vorbereiten/vorbereiten
-   content/vorbereiten/erstpublizierende
-   content/vorbereiten/publikationsrichtlinien
+* [Auf einen Blick](content/vorbereiten/vorbereiten.md)
+  * [Daten vorbereiten](content/vorbereiten/vorbereiten.md#daten-vorbereiten)
+* [Für Erst-Publizierende](content/vorbereiten/erstpublizierende.md)
+  * [Wissenswertes vor dem Start](content/vorbereiten/erstpublizierende.md#wissenswertes-vor-dem-start)
+* [Publikationsrichtlinien](content/vorbereiten/publikationsrichtlinien.md)
+  * [Richtlinien für die Veröffentlichung von Open Government Data («OGD-Richtlinien»)](content/vorbereiten/publikationsrichtlinien.md#richtlinien-fur-die-veroffentlichung-von-open-government-data-ogd-richtlinien)
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Publizieren
+## Publizieren
 
-   content/publizieren/publizieren
-   content/publizieren/erstpublizierende
-   content/publizieren/publikationsprozess
-   content/publizieren/publikationsvariante
+* [Auf einen Blick](content/publizieren/publizieren.md)
+  * [Daten publizieren](content/publizieren/publizieren.md#daten-publizieren)
+* [Für Erst-Publizierende](content/publizieren/erstpublizierende.md)
+  * [Die erforderlichen Schritte im Überblick](content/publizieren/erstpublizierende.md#die-erforderlichen-schritte-im-uberblick)
+* [Publikationsprozess verstehen](content/publizieren/publikationsprozess.md)
+  * [Was muss ich über den Publikationsprozess wissen?](content/publizieren/publikationsprozess.md#was-muss-ich-uber-den-publikationsprozess-wissen)
+  * [Daten publizieren – So funktioniert’s:](content/publizieren/publikationsprozess.md#daten-publizieren-so-funktionierts)
+* [Publikationsvariante auswählen](content/publizieren/publikationsvariante.md)
+  * [Welche Publikationsvarianten ist die richtige für meine Daten?](content/publizieren/publikationsvariante.md#welche-publikationsvarianten-ist-die-richtige-fur-meine-daten)
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Pflegen
+## Pflegen
 
-   content/pflegen/pflegen
-   content/pflegen/datasets-updaten
-   content/pflegen/auskunft-geben
-   content/pflegen/support
+* [Auf einen Blick](content/pflegen/pflegen.md)
+* [Datasets updaten](content/pflegen/datasets-updaten.md)
+* [Auskunft zu Daten geben](content/pflegen/auskunft-geben.md)
+* [Support und Feedback](content/pflegen/support.md)
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Nutzen
+## Nutzen
 
-   content/nutzen/nutzen
-   content/nutzen/daten-suchen
-   content/nutzen/api-nutzen
+* [Auf einen Blick](content/nutzen/nutzen.md)
+* [Daten suchen](content/nutzen/daten-suchen.md)
+* [opendata.swiss API nutzen](content/nutzen/api-nutzen.md)
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Kommunizieren
+## Kommunizieren
 
-   content/kommunizieren/kommunizieren
-   content/kommunizieren/ogd
-   content/kommunizieren/datennutzende
+* [Auf einen Blick](content/kommunizieren/kommunizieren.md)
+* [Über unsere Kanäle](content/kommunizieren/ogd.md)
+* [Mit den Datennutzenden](content/kommunizieren/datennutzende.md)
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Glossar
+## Glossar
 
-   content/glossar/bibliothek
-   content/glossar/begriffe
+* [Bibliothek](content/glossar/bibliothek.md)
+* [Begriffe](content/glossar/begriffe.md)
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Über das Handbuch
+## Über das Handbuch
 
-   content/ueberdashandbuch/ueber-das-handbuch
-   content/ueberdashandbuch/kontakt
-   content/ueberdashandbuch/rechtliche-hinweise
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: (Versteckt):
-
-   content/vorbereiten/erstpublizierende/opendata-swiss-verstehen
-   content/vorbereiten/erstpublizierende/dateninventar-erstellen
-   content/vorbereiten/publikationsrichtlinien
-   content/publizieren/erstpublizierende/kontakt-bfs
-   content/publizieren/erstpublizierende/organisation-einrichten
-   content/publizieren/erstpublizierende/profil-einrichten
-   content/publizieren/publikationsvarianten/metadaten-manuell-erfassen
-   content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen
-   content/publizieren/publikationsvarianten/harvesting
-   content/publizieren/publikationsvarianten/geodaten
-   content/kommunizieren/datennutzende/event
-   content/kommunizieren/datennutzende/online
-   content/kommunizieren/ogd/twitter
-   content/kommunizieren/ogd/showcases
-   content/kommunizieren/ogd/newsmail
-   content/kommunizieren/ogd/twitter-beispiele
-   content/glossar/bibliothek/ogd-richtlinien
-   content/glossar/bibliothek/dcat-ap-ch
-   content/glossar/bibliothek/geocat-mapping
-   content/glossar/bibliothek/linked-open-data
-   content/glossar/bibliothek/hosting
-   content/glossar/bibliothek/formate-ressourcen
-   content/glossar/bibliothek/embed
-   content/branding/images
+* [Über das Handbuch](content/ueberdashandbuch/ueber-das-handbuch.md)
+* [Kontakt](content/ueberdashandbuch/kontakt.md)
+* [Rechtliche Hinweise](content/ueberdashandbuch/rechtliche-hinweise.md)

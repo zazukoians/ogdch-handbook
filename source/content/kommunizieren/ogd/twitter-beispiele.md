@@ -1,25 +1,5 @@
-.. figure:: ../../../_static/images/kommunizieren/twitterbeispiel_1.jpg
-   :alt: Beispiel für Twitter Post auf @opendataswiss
+![Beispiel für Twitter Post auf @opendataswiss](_static/images/kommunizieren/twitterbeispiel_1.jpg)![Beispiel für Twitter Post auf @opendataswiss](_static/images/kommunizieren/twitterbeispiel_2.jpg)![Beispiel für Twitter Post auf @opendataswiss](_static/images/kommunizieren/twitterbeispiel_3.jpg)![Beispiel für Twitter Post auf @opendataswiss](_static/images/kommunizieren/twitterbeispiel_4.jpg)![Beispiel für Twitter Post auf @opendataswiss](_static/images/kommunizieren/twitterbeispiel_5.jpg)![Beispiel für Twitter Post auf @opendataswiss](_static/images/kommunizieren/twitterbeispiel_6.jpg)
 
-.. figure:: ../../../_static/images/kommunizieren/twitterbeispiel_2.jpg
-   :alt: Beispiel für Twitter Post auf @opendataswiss
+[NewsMail](newsmail.md)
 
-.. figure:: ../../../_static/images/kommunizieren/twitterbeispiel_3.jpg
-   :alt: Beispiel für Twitter Post auf @opendataswiss
-
-.. figure:: ../../../_static/images/kommunizieren/twitterbeispiel_4.jpg
-   :alt: Beispiel für Twitter Post auf @opendataswiss
-
-.. figure:: ../../../_static/images/kommunizieren/twitterbeispiel_5.jpg
-   :alt: Beispiel für Twitter Post auf @opendataswiss
-
-.. figure:: ../../../_static/images/kommunizieren/twitterbeispiel_6.jpg
-   :alt: Beispiel für Twitter Post auf @opendataswiss
-
-.. container:: teaser
-
-    :doc:`NewsMail <newsmail>`
-
-.. container:: teaser
-
-    :doc:`Showcases <showcases>`
+[Showcases](showcases.md)

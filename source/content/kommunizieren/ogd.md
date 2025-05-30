@@ -1,27 +1,34 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Kommunizieren <kommunizieren>` :fa:`chevron-right`
-   - Über unsere Kanäle
+   [Handbuch](../../index.md) 
 
-******************************
-Über unsere Kanäle
-******************************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Kommunizieren](kommunizieren.md) 
 
-Welche Aufgaben verfolgt die Geschäftsstelle OGD bei ihrer Kommunikationsarbeit und an welche Zielgruppen richtet sie sich?
-============================================================================================================================
-Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+  ```
+  :fa:`chevron-right`
+  ```
+- Über unsere Kanäle
+
+# Über unsere Kanäle
+
+## Welche Aufgaben verfolgt die Geschäftsstelle OGD bei ihrer Kommunikationsarbeit und an welche Zielgruppen richtet sie sich?
+
+Die [Geschäftsstelle OGD](../glossar/begriffe.md#term-Geschaftsstelle-Open-Government-Data-OGD)
 des Bundesamtes für Statistik (BFS) begleitet die Umsetzung
 der vom Bundesrat Ende 2018 verabschiedeten
-`«Open Government Data»-Strategie (OGD-Strategie) 2019–2023 <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html>`__,
+[«Open Government Data»-Strategie (OGD-Strategie) 2019–2023](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html),
 die drei Hauptziele verfolgt:
 
-.. figure:: ../../_static/images/kommunizieren/diagramm.jpg
-   :alt: Ziele der Kommunikation von Open Government Data
+![Ziele der Kommunikation von Open Government Data](_static/images/kommunizieren/diagramm.jpg)
 
 Demnach richtet sich die Geschäftsstelle OGD im Wesentlichen an zwei Zielgruppen:
-einerseits an die :term:`Datenanbietenden <Datenpublizierende / Datenanbietende>`,
-andererseits an die :term:`Datennutzenden <Datennutzende>`.
+einerseits an die [Datenanbietenden](../glossar/begriffe.md#term-Datenpublizierende-Datenanbietende),
+andererseits an die [Datennutzenden](../glossar/begriffe.md#term-Datennutzende).
 Da die OGD-Strategie 2019–2023 für die Bundesverwaltung verbindlich ist,
 betreffen die Kommunikationsmassnahmen prioritär die Datenanbietenden in den
 Bundesstellen. Kantone, Gemeinden, Städte und staatsnahe Betriebe werden in
@@ -29,8 +36,7 @@ einem zweiten Schritt angegangen. Das Ökosystem der Datennutzenden besteht aus
 Datenjournalistinnen, Entwicklern von Apps und Datenvisualisierungen,
 Forschenden sowie aus verwaltungsinternen Nutzerinnen und Nutzern.
 
-Wozu dient der Austausch?
------------------------------
+### Wozu dient der Austausch?
 
 Die noch relativ junge Open-Data-Gemeinschaft (Datenanbietende und Datennutzende)
 soll und muss wachsen, und zwar mit vereinten Kräften. Es braucht eine solide
@@ -44,16 +50,12 @@ Vielzahl an aktiven Abonnenten. Neuigkeiten aus der Gemeinschaft teilt
 sie regelmässig über diese Kanäle. Dieses Angebot verleiht den relevanten
 Themen mehr Sichtbarkeit und stärkt die Open-Data-Gemeinschaft.
 
-Welche Kommunikationskanäle nutzt die Geschäftsstelle OGD?
--------------------------------------------------------------
+### Welche Kommunikationskanäle nutzt die Geschäftsstelle OGD?
 
-- :doc:`Twitter <ogd/twitter>`
-- :doc:`NewsMail <ogd/newsmail>`
-- :doc:`Showcases <ogd/showcases>`
+- [Twitter](ogd/twitter.md)
+- [NewsMail](ogd/newsmail.md)
+- [Showcases](ogd/showcases.md)
 
 Für andere Kommunikationsmassnahmen wie Medienmitteilungen,
 Schulungen oder Events wenden Sie sich bitte
-an die `Geschäftsstelle OGD <mailto:opendata@bfs.admin.ch>`__.
-
-
-
+an die [Geschäftsstelle OGD](mailto:opendata@bfs.admin.ch).

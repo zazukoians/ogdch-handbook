@@ -1,19 +1,22 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - Kontakt
+   [Handbuch](../../index.md) 
 
-*******
-Kontakt
-*******
+  ```
+  :fa:`chevron-right`
+  ```
+- Kontakt
 
-So erreichen Sie uns
-====================
+# Kontakt
+
+## So erreichen Sie uns
 
 Bei Fragen zum Handbuch, zum Publikationsprozess auf opendata.swiss
 oder allgemeinen Fragen zu Open Government Data helfen wir von der
-:term:`Geschäftsstelle Open Government Data <Geschäftsstelle Open Government Data (OGD)>`
+[Geschäftsstelle Open Government Data](../glossar/begriffe.md#term-Geschaftsstelle-Open-Government-Data-OGD)
 Ihnen gerne weiter.
 
 Schreiben sie uns unter
-`opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__.
+[opendata@bfs.admin.ch](mailto:opendata@bfs.admin.ch).

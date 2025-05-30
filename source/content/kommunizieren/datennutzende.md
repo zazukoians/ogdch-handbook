@@ -1,28 +1,34 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Kommunizieren <kommunizieren>` :fa:`chevron-right`
-   - Mit den Datennutzenden
+   [Handbuch](../../index.md) 
 
-*************************
-Mit den Datennutzenden
-*************************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Kommunizieren](kommunizieren.md) 
 
-Worin besteht der Mehrwert?
-==============================
+  ```
+  :fa:`chevron-right`
+  ```
+- Mit den Datennutzenden
 
-Der Dialog zwischen :term:`Datenanbietenden <Datenpublizierende / Datenanbietende>`
-und :term:`Datennutzenden <Datennutzende>`
+# Mit den Datennutzenden
+
+## Worin besteht der Mehrwert?
+
+Der Dialog zwischen [Datenanbietenden](../glossar/begriffe.md#term-Datenpublizierende-Datenanbietende)
+und [Datennutzenden](../glossar/begriffe.md#term-Datennutzende)
 trägt dazu bei, die Datenqualität zu verbessern und koordinierte, bedarfsgerechte Daten zu veröffentlichen.
 Bessere Daten steigern letztlich die Wiederverwendbarkeit und den Mehrwert der Daten.
 
-Wer nutzt die Daten?
--------------------------
+### Wer nutzt die Daten?
+
 Das Ökosystem der Datennutzenden besteht aus Datenjournalistinnen, Entwicklern von Apps
 und Datenvisualisierungen, Forschenden sowie aus verwaltungsinternen Nutzerinnen und Nutzern.
 
-Welche Kommunikationswege gibt es?
-------------------------------------
+### Welche Kommunikationswege gibt es?
 
-- :doc:`Onlinekommunikation <datennutzende/online>`
-- :doc:`Eventkommunikation <datennutzende/event>`
+- [Onlinekommunikation](datennutzende/online.md)
+- [Eventkommunikation](datennutzende/event.md)

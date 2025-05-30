@@ -1,22 +1,27 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
-   - :doc:`Vorbereiten <vorbereiten>` :fa:`chevron-right`
-   - Für jedes Dataset
+   [Handbuch](../../index.md) 
 
-*****************
-Für jedes Dataset
-*****************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Vorbereiten](vorbereiten.md) 
 
-Welche Schritte sind vor der Publikation eines Datasets nötig?
-==============================================================
+  ```
+  :fa:`chevron-right`
+  ```
+- Für jedes Dataset
 
-.. container:: Intro
+# Für jedes Dataset
 
-    Bevor Sie Daten auf opendata.swiss publizieren können, müssen Sie
-    sicherstellen, dass die Anforderungen für die Publikation von OGD erfüllt werden.
-    Dies gilt für jedes einzelne Dataset:
+## Welche Schritte sind vor der Publikation eines Datasets nötig?
 
-    - :doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`
-    - :doc:`Technische Anforderungen prüfen <dataset/technischer-check>`
-    - :doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-check>`
+Bevor Sie Daten auf opendata.swiss publizieren können, müssen Sie
+sicherstellen, dass die Anforderungen für die Publikation von OGD erfüllt werden.
+Dies gilt für jedes einzelne Dataset:
+
+- [Rechtliche Anforderungen prüfen](dataset/rechtlicher-check.md)
+- [Technische Anforderungen prüfen](dataset/technischer-check.md)
+- [Organisatorische Anforderungen prüfen](dataset/organisatorischer-check.md)

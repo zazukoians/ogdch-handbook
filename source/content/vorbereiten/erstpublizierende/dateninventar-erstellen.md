@@ -1,29 +1,36 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Vorbereiten <../vorbereiten>` :fa:`chevron-right`
-   - :doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`
-   - Dateninventar erstellen
+   [Handbuch](../../../index.md) 
 
+  ```
+  :fa:`chevron-right`
+  ```
+- [Vorbereiten](../vorbereiten.md) 
 
-***********************
-Dateninventar erstellen
-***********************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Erst-Publizierende](../erstpublizierende.md) 
 
-Welche Daten gibt es in meiner Organisation?
-============================================
+  ```
+  :fa:`chevron-right`
+  ```
+- Dateninventar erstellen
 
-.. container:: Intro
+# Dateninventar erstellen
 
-    Um Ihre Open Government Data Initiative zu starten,
-    empfehlen wir Ihnen, sich einen Überblick zu verschaffen,
-    welche Daten in Ihrer Organisation überhaupt vorhanden sind.
-    So können Sie einfacher und systematischer Daten
-    identifizieren, die als Open Government Data publiziert
-    werden sollen.
+## Welche Daten gibt es in meiner Organisation?
 
-Dateninventarisierung
-=====================
+Um Ihre Open Government Data Initiative zu starten,
+empfehlen wir Ihnen, sich einen Überblick zu verschaffen,
+welche Daten in Ihrer Organisation überhaupt vorhanden sind.
+So können Sie einfacher und systematischer Daten
+identifizieren, die als Open Government Data publiziert
+werden sollen.
+
+## Dateninventarisierung
 
 Ziel dieses Prozesses ist zu identifizieren, welche Daten ohne
 Einschränkungen publiziert werden können (Open Data),
@@ -51,30 +58,24 @@ Diese Fragen helfen Ihnen bei dieser Kategorisierung:
 - Sind im Rahmen anderer Erhebungen, beispielsweise im IT-Bereich
   oder zur Unternehmensarchitektur, Informationen über Ihre Datasets vorhanden?
 
-.. container:: support
-
-   Support
+Support
 
 Brauchen Sie Unterstützung bei der Inventarisierung Ihrer Daten?
 Wollen Sie die Daten, die als Open Data identifiziert werden,
 veröffentlichen – Sie wissen aber nicht so recht wie?
-`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
+[Schreiben Sie uns](mailto:opendata@bfs.admin.ch)
 und wir helfen Ihnen gerne weiter.
 
-.. container:: materialien
+Mehr zum Thema
 
-   Mehr zum Thema
-
-- `Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen (pdf) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147081.html>`__ –
+- [Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen (pdf)](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147081.html) –
   Das Dokument liefert Kriterien zur Abgrenzung zwischen OGD und
   jenen Leistungen, die im Auftrag für einen Kunden erbracht wurden.
-- `Arbeitshilfe für Behörden zur Publikation von Daten als OGD (pdf) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__ –
+- [Arbeitshilfe für Behörden zur Publikation von Daten als OGD (pdf)](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html) –
   Das Dokument erklärt sämtliche Fragen des rechtlichen Checks
   und trägt so zur Entscheidungsfindung bei.
 
-.. container:: teaser
-
-    :doc:`Die passende Nutzungsbedingung für meine Datasets auswählen <../dataset/rechtlicher-check>`
+[Die passende Nutzungsbedingung für meine Datasets auswählen](../dataset/rechtlicher-check.md)
 
 Die Nutzungsbedingungen dienen als «Übersetzung» der bestehenden
 rechtlichen Grundlagen und vermitteln den Datennutzenden eine

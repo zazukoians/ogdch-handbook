@@ -1,22 +1,27 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
-   - :doc:`Pflegen <pflegen>` :fa:`chevron-right`
-   - Auskunft zu Daten geben
+   [Handbuch](../../index.md) 
 
-***********************
-Auskunft zu Daten geben
-***********************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Pflegen](pflegen.md) 
 
-Wie gehe ich mit Fragen zu meinen Daten um?
-===========================================
+  ```
+  :fa:`chevron-right`
+  ```
+- Auskunft zu Daten geben
 
-.. container:: Intro
+# Auskunft zu Daten geben
 
-    Der Dialog mit den Datennutzerinnen und -nutzern ist essentiell für
-    die Weiterentwicklung von OGD. Hier erfahren Sie, zu welchen Fragen Sie
-    als Datenpublizierende Auskunft geben und welche wir als
-    :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` beantworten.
+## Wie gehe ich mit Fragen zu meinen Daten um?
+
+Der Dialog mit den Datennutzerinnen und -nutzern ist essentiell für
+die Weiterentwicklung von OGD. Hier erfahren Sie, zu welchen Fragen Sie
+als Datenpublizierende Auskunft geben und welche wir als
+[Geschäftsstelle OGD](../glossar/begriffe.md#term-Geschaftsstelle-Open-Government-Data-OGD) beantworten.
 
 Wesentliche Aspekte von Open Government Data sind zum einen die Unterstützung von
 Datennutzerinnen und Nutzern, die mit der Verwendung der Daten einen Mehrwert
@@ -28,18 +33,16 @@ Für das Beantworten von Fragen zu Ihren Daten sind Sie selbst verantwortlich.
 In jedem Dataset sind unter dem Feld «Kontaktstellen» E-Mails der Kontaktpersonen
 Ihrer Organisation eingetragen. Halten Sie diese Einträge bitte aktuell, damit
 Sie kontaktiert werden können. Allfällige Anfragen zu Ihren Daten, die der
-:term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+[Geschäftsstelle OGD](../glossar/begriffe.md#term-Geschaftsstelle-Open-Government-Data-OGD)
 gestellt werden, leiten wir an Sie weiter.
 
 Die Geschäftsstelle OGD beantwortet allgemeine Fragen zum Thema Open Government
 Data (z.B. Mandat, Rahmenbedingungen) und zum Portal opendata.swiss
 (z.B. Fehlermeldungen, Fragen zur Bedienung). Wir sind auch aktiv auf
-Twitter (`@opendataswiss <https://twitter.com/opendataswiss>`__)
+Twitter ([@opendataswiss](https://twitter.com/opendataswiss))
 und versuchen dort auf relevante Diskussionen aufmerksam zu machen.
 
-.. container:: support
-
-   Support
+Support
 
 Sie haben eine Frage?
-`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter.
+[Schreiben Sie uns](mailto:opendata@bfs.admin.ch) und wir helfen Ihnen gerne weiter.

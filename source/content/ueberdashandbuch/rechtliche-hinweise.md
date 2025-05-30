@@ -1,14 +1,17 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - Rechtliche Hinweise
+   [Handbuch](../../index.md) 
 
-*******************
-Rechtliche Hinweise
-*******************
+  ```
+  :fa:`chevron-right`
+  ```
+- Rechtliche Hinweise
 
-Haftung
--------
+# Rechtliche Hinweise
+
+## Haftung
 
 Obwohl die veröffentlichten Informationen mit aller Sorgfalt geprüft worden sind,
 kann für die inhaltliche Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und
@@ -22,8 +25,7 @@ welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten
 Informationen, durch Missbrauch der Verbindung oder durch technische Störungen
 entstanden sind, werden ausgeschlossen.
 
-Verweise und Links
-------------------
+## Verweise und Links
 
 Verweise und Links auf Webseiten Dritter liegen ausserhalb des Verantwortungsbereichs der
 beteiligten Behörden. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene
@@ -33,8 +35,7 @@ Seiten haben. Informationen und Dienstleistungen von verknüpften Webseiten lieg
 vollumfänglich in der Verantwortung des jeweiligen Dritten. Es wird jegliche
 Verantwortung für solche Webseiten abgelehnt.
 
-Datenschutz
------------
+## Datenschutz
 
 Gestützt auf Artikel 13 der schweizerischen Bundesverfassung und die Datenschutzgesetze hat
 jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer
@@ -57,8 +58,7 @@ freiwillige Kontaktaufnahme. Beim Registrieren der E-Mail-Adresse wird diese in 
 separate Datenbank aufgenommen, die in keinem Zusammenhang mit den anonymen Logfiles steht.
 Es besteht jederzeit die Möglichkeit, die Registrierung wieder rückgängig zu machen.
 
-Webanalyse
-----------
+## Webanalyse
 
 *handbook.opendata.swiss* verwendet den Open Source Webanalysedienst Matomo. Matomo
 verwendet sogenannte «Cookies», das sind Textdateien, die auf Ihrem Computer gespeichert
@@ -72,15 +72,13 @@ Die Speicherung von Cookies können Sie durch eine entsprechende Einstellung Ihr
 Browser-Software verhindern; mit dieser Einstellung können gegebenenfalls nicht
 sämtliche Funktionen dieser Website genutzt werden.
 
-Urheberrecht
-------------
+## Urheberrecht
 
 Die auf swiss handbook.opendata.swiss veröffentlichten Daten sind in der Regel
 urheberrechtlich nicht geschützt. Die auf handbook.opendata.swiss enthaltenen
 Informationen werden der Öffentlichkeit zugänglich gemacht.
 
-Quellcode
----------
+## Quellcode
 
 handbook.opendata.swiss nutzt Sphinx, einen auf Dokumentation spezialisierten, statischen
 Website-Generator, der auch von der Hosting Plattform Read The Docs genutzt wird.

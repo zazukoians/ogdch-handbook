@@ -1,20 +1,7 @@
-:DCAT: :ref:`dcat:accessURL <dcat-distribution-access-url>`
-:XPATH: ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``
-:Mapping: The mapping depends on the protocol. If the protocol starts in the following way it is mapped to a
-          dcat:Distribution: ``WWW:DOWNLOAD``, ``OGC:WMTS``, ``OGC:WFS``, ``"OGC:WMS``, ``LINKED:DATA``,
-          ``ESRI:REST``, ``MAP:Preview``, ``WWW:DOWNLOAD-APP``
+```xml
+//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource
+```
 
-:Value: ``.//gmd:linkage/gmd:URL/text()``
-:Fallback-Value: ``'.//che:LocalisedURL`` for any language
-:Usage Notes: For the protocol ``WWW:DOWNLOAD`` the protocol should include the format of the
-              resource: for example ``WWW:DOWNLOAD:INTERLIS``
-
-.. code-block:: xml
-    :caption: ISO-19139_che XPath for geocat distribution`
-
-    //gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource
-
-.. code-block:: xml
-    :caption: ISO-19139_che XPath for distribution protocol
-
-    //gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol
+```xml
+//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol
+```

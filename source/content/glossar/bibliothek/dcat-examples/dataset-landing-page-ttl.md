@@ -1,9 +1,7 @@
-.. code-block:: Turtle
-    :caption: :fa:`exclamation` The landing page is provided as a resource
-    :emphasize-lines: 5
+```Turtle
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 
-    @prefix dcat: <http://www.w3.org/ns/dcat#> .
-
-    <https://swisstopo/123>
-      a dcat:Dataset ;
-        dcat:landingPage <http://www.bafu.admin.ch/laerm/index.html> .
+<https://swisstopo/123>
+  a dcat:Dataset ;
+    dcat:landingPage <http://www.bafu.admin.ch/laerm/index.html> .
+```

@@ -1,25 +1,29 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
-   - :doc:`Vorbereiten <vorbereiten>` :fa:`chevron-right`
-   - Für Erst-Publizierende
+   [Handbuch](../../index.md) 
 
-**********************
-Für Erst-Publizierende
-**********************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Vorbereiten](vorbereiten.md) 
 
-Wissenswertes vor dem Start
-===========================
+  ```
+  :fa:`chevron-right`
+  ```
+- Für Erst-Publizierende
 
-.. container:: Intro
+# Für Erst-Publizierende
 
-    Zunächst einmal: Danke, dass Sie OGD publizieren möchten.
-    In diesem Handbuch unterstützen wir Sie dabei.
-    Als Erst-Publizierende empfehlen wir Ihnen, sich vorab mit den
-    Prozessen von opendata.swiss vertraut zu machen.
-    Ausserdem geben wir Ihnen Hilfestellung zur Frage,
-    welche Daten Ihrer Organisation als OGD publiziert werden sollen.
+## Wissenswertes vor dem Start
 
-    - :doc:`opendata.swiss verstehen <erstpublizierende/opendata-swiss-verstehen>`
-    - :doc:`Dateninventar erstellen <erstpublizierende/dateninventar-erstellen>`
+Zunächst einmal: Danke, dass Sie OGD publizieren möchten.
+In diesem Handbuch unterstützen wir Sie dabei.
+Als Erst-Publizierende empfehlen wir Ihnen, sich vorab mit den
+Prozessen von opendata.swiss vertraut zu machen.
+Ausserdem geben wir Ihnen Hilfestellung zur Frage,
+welche Daten Ihrer Organisation als OGD publiziert werden sollen.
 
+- [opendata.swiss verstehen](erstpublizierende/opendata-swiss-verstehen.md)
+- [Dateninventar erstellen](erstpublizierende/dateninventar-erstellen.md)

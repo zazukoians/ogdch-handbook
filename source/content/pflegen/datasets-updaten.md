@@ -1,23 +1,28 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
-   - :doc:`Pflegen <pflegen>` :fa:`chevron-right`
-   - Datasets updaten
+   [Handbuch](../../index.md) 
 
-****************
-Datasets updaten
-****************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Pflegen](pflegen.md) 
 
-Wie halte ich meine Datasets nach der Veröffentlichung aktuell?
-===============================================================
+  ```
+  :fa:`chevron-right`
+  ```
+- Datasets updaten
 
-.. container:: Intro
+# Datasets updaten
 
-    Nach der Veröffentlichung kann es immer mal wieder zu Änderungen und Aktualisierungen
-    Ihrer Metadaten kommen, beispielsweise durch die Publikation von neuen Ressourcen
-    oder die Änderung der URL. Solche Änderungen der Metadaten müssen Sie im Backend
-    der :term:`Produktionsumgebung <Produktionsumgebung>` von opendata.swiss nachführen.
-    Änderungen an Ihren physischen Daten müssen Sie uns nicht melden.
+## Wie halte ich meine Datasets nach der Veröffentlichung aktuell?
+
+Nach der Veröffentlichung kann es immer mal wieder zu Änderungen und Aktualisierungen
+Ihrer Metadaten kommen, beispielsweise durch die Publikation von neuen Ressourcen
+oder die Änderung der URL. Solche Änderungen der Metadaten müssen Sie im Backend
+der [Produktionsumgebung](../glossar/begriffe.md#term-Produktionsumgebung) von opendata.swiss nachführen.
+Änderungen an Ihren physischen Daten müssen Sie uns nicht melden.
 
 Die Aktualisierung von Einträgen auf opendata.swiss hängt von Ihrer gewählten
 Publikationsvariante ab. Wenn Sie Ihre Metadaten manuell erfasst haben, müssen
@@ -27,16 +32,12 @@ Wir bitten Sie ausserdem regelmässig zu prüfen, ob Ihre Metadaten richtig bei 
 ankommen. Gehen Sie dazu auf opendata.swiss und prüfen Sie die Seite Ihrer
 Organisation mitsamt Datasets.
 
-.. container:: important
+Wichtig: Bei jeder Anpassung der Metadaten sollte geprüft werden, ob auch eine Anpassung
+des Änderungsdatums sinnvoll ist. Dies ist der Fall, wenn sich entweder die Metadaten
+oder auch die Originaldaten selbst geändert haben. So können Nutzerinnen und -nutzer
+Ihrer Daten erkennen, dass eine Aktualisierung vorliegt.
 
-    Wichtig: Bei jeder Anpassung der Metadaten sollte geprüft werden, ob auch eine Anpassung
-    des Änderungsdatums sinnvoll ist. Dies ist der Fall, wenn sich entweder die Metadaten
-    oder auch die Originaldaten selbst geändert haben. So können Nutzerinnen und -nutzer
-    Ihrer Daten erkennen, dass eine Aktualisierung vorliegt.
-
-.. container:: support
-
-   Support
+Support
 
 Sie haben eine Frage?
-`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter.
+[Schreiben Sie uns](mailto:opendata@bfs.admin.ch) und wir helfen Ihnen gerne weiter.

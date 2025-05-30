@@ -1,40 +1,49 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`
-   - :doc:`Mit den Datennutzenden <../datennutzende>` :fa:`chevron-right`
-   - Eventkommunikation
+   [Handbuch](../../../index.md) 
 
-*************************************
-Eventkommunikation
-*************************************
+  ```
+  :fa:`chevron-right`
+  ```
+- [Kommunizieren](../kommunizieren.md) 
 
-Möchten Sie wissen, wer Ihre Daten wie nutzt?
-================================================
+  ```
+  :fa:`chevron-right`
+  ```
+- [Mit den Datennutzenden](../datennutzende.md) 
 
-`Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__, falls Sie
+  ```
+  :fa:`chevron-right`
+  ```
+- Eventkommunikation
+
+# Eventkommunikation
+
+## Möchten Sie wissen, wer Ihre Daten wie nutzt?
+
+[Kontaktieren Sie uns](mailto:opendata@bfs.admin.ch), falls Sie
 einen Anlass planen.
 Wir bringen Sie gern mit unseren Kontakten in Verbindung, die auf die Organisation
 von Open-Data-Events spezialisiert sind.
 
-Welche Anlässe eignen sich für den Austausch mit der Open-Data-Gemeinschaft?
------------------------------------------------------------------------------
+### Welche Anlässe eignen sich für den Austausch mit der Open-Data-Gemeinschaft?
 
-- :ref:`Hackathons <event-hackathon>`
-- :ref:`“Open Data Beer”-Anlässe <event-open-data-beer>`
-- :ref:`Workshops <event-workshops>`
+- [Hackathons](#event-hackathon)
+- [“Open Data Beer”-Anlässe](#event-open-data-beer)
+- [Workshops](#event-workshops)
 
-.. _event-hackathon:
+<a id="event-hackathon"></a>
 
-Hackathons
-=================
+## Hackathons
+
 Hackathons sind kollaborative Veranstaltungen, an denen Entwicklerinnen, Datennutzer,
 Studierende, Datendesignerinnen und Datenanalysten freiwillig zusammenkommen, um an einem oder
 mehreren Tagen gemeinsam projektbezogene IT-Lösungen zu entwickeln. Ziel des Prozesses ist es,
 innovative Lösungen und neue Apps z.B. im digitalen Bereich zu kreieren.
 
-Wozu dienen Hackathons?
----------------------------
+### Wozu dienen Hackathons?
 
 Bei diesen Veranstaltungen haben die Datennutzenden die Gelegenheit, Daten der
 Verwaltung wiederzuverwenden.
@@ -45,19 +54,19 @@ Datenanbietenden aus, die sich dadurch in der öffentlichen Meinung und bei der
 Open-Data-Gemeinschaft als innovative Akteure positionieren können.
 Hier einige Beispiele von Hackathons, die der Bund mitorganisiert hat:
 
-- `Hackathon Versus Virus <https://www.versusvirus.ch/>`__
-- `Open Farming Hackdays <https://hightechzentrum.ch/event/open-farming-hackdays-2021>`__
-- `Energy Data Hackdays <https://opendata.ch/projects/energy-data-hackdays-2020/>`__
+- [Hackathon Versus Virus](https://www.versusvirus.ch/)
+- [Open Farming Hackdays](https://hightechzentrum.ch/event/open-farming-hackdays-2021)
+- [Energy Data Hackdays](https://opendata.ch/projects/energy-data-hackdays-2020/)
 
 Wen kann ich kontaktieren, wenn ich einen Hackathon organisieren will?
-Das Team von `Opendata.ch <https://opendata.ch/>`__
+Das Team von [Opendata.ch](https://opendata.ch/)
 organisiert zahlreiche Hackathons in der Schweiz.
 
-.. _event-open-data-beer:
+<a id="event-open-data-beer"></a>
 
-«Open Data Beer»-Anlässe
-============================
-`«Open Data Beer» <https://opendatabeer.ch/>`__ ist eine Netzwerk-Eventreihe.
+## «Open Data Beer»-Anlässe
+
+[«Open Data Beer»](https://opendatabeer.ch/) ist eine Netzwerk-Eventreihe.
 Sie ermöglicht Begegnungen zwischen Menschen, die Daten publizieren, und
 denjenigen, die sie nutzen. Pro Jahr finden rund vier Anlässe statt,
 die von der Open-Data-Gemeinschaft sehr geschätzt werden.
@@ -72,12 +81,11 @@ Im Schnitt nehmen 50 bis 60 Interessierte an diesen Veranstaltungen teil.
 
 An wen muss ich mich wenden, wenn ich ein «Open Data Beer» veranstalten will?
 Kontaktieren Sie das
-`Organisationsteam <https://opendatabeer.ch/kontakt/>`__.
+[Organisationsteam](https://opendatabeer.ch/kontakt/).
 
-.. _event-workshops:
+<a id="event-workshops"></a>
 
-Spontane Workshops mit Datennutzenden
-======================================
+## Spontane Workshops mit Datennutzenden
 
 Sie können direkt und spontan Workshops mit Personen organisieren,
 die Ihre Daten nutzen. Schon an einem kurzen (z.B. zweistündigen) Austausch

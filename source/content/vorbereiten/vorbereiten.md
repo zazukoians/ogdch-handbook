@@ -1,14 +1,17 @@
-.. container:: custom-breadcrumbs
+- ```
+  :fa:`home`
+  ```
 
-   - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
-   - Vorbereiten
+   [Handbuch](../../index.md) 
 
-***************
-Auf einen Blick
-***************
+  ```
+  :fa:`chevron-right`
+  ```
+- Vorbereiten
 
-Daten vorbereiten
-=================
+# Auf einen Blick
+
+## Daten vorbereiten
 
 Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open
 Government Data publizieren können, müssen Sie sicherstellen,
@@ -20,13 +23,11 @@ Als Erst-Publizierende erklären wir Ihnen das Wichtigste
 rund um den Prozess und unterstützen Sie bei der Identifikation
 von geeigneten Daten.
 
-:doc:`Für Erst-Publizierende <erstpublizierende>`
---------------------------------------------------------------
+### [Für Erst-Publizierende](erstpublizierende.md)
 
-    - :doc:`opendata.swiss verstehen <erstpublizierende/opendata-swiss-verstehen>`
-    - :doc:`Dateninventar erstellen <erstpublizierende/dateninventar-erstellen>`
+> - [opendata.swiss verstehen](erstpublizierende/opendata-swiss-verstehen.md)
+> - [Dateninventar erstellen](erstpublizierende/dateninventar-erstellen.md)
 
-:doc:`Publikationsrichtlinien <publikationsrichtlinien>`
--------------------------------------------------------------
+### [Publikationsrichtlinien](publikationsrichtlinien.md)
 
-    - :doc:`OGD-Richtlinien lesen <publikationsrichtlinien>`
+> - [OGD-Richtlinien lesen](publikationsrichtlinien.md)
