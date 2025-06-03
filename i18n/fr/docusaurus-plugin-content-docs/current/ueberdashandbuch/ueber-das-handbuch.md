@@ -2,7 +2,7 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../index.md) 
+  [Handbuch](../../index.md)
 
   ```
   :fa:`chevron-right`
@@ -37,8 +37,8 @@ beispielsweise Krankenversicherungsprämien, Bevölkerungsstatistiken, eine List
 Bahnhöfe und Haltestellen des öffentlichen Verkehrs oder aktuelle Wetterdaten.
 opendata.swiss wurde von verschiedenen Partnerorganisationen unter der
 Federführung des Bundesarchivs erstellt. 2019 übernahm das Bundesamt für Statistik die
-Leitung. Die Partner entwickeln das Portal stetig weiter. Hier finden Sie eine [Liste
-aller Organisationen, die Daten publizieren](https://opendata.swiss/de/organization).
+Leitung. Die Partner entwickeln das Portal stetig weiter. Hier finden Sie eine Liste
+aller Organisationen, die Daten publizieren.
 
 Support
 
