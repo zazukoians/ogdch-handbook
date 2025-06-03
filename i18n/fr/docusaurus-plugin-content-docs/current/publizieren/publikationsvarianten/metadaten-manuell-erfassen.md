@@ -138,8 +138,7 @@ Fügen Sie weitere Schlüsselwörter hinzu, indem Sie auf das Plus-Symbol klicke
 Um Schlüsselwörter zu löschen, wählen Sie das Papierkorb—Symbol.
 Vergessen Sie nicht, die entsprechende Zeile zu markieren.
 
-![Eingabefeld von Schlüsselwörtern](/images/publizieren/manuelle-datenerfassung/dataset-schluesselwoerter.png)
-<br/>
+![Eingabefeld von Schlüsselwörtern](/images/publizieren/manuelle-datenerfassung/dataset-schluesselwoerter.png) <br/>
 
 #### Landing page
 
@@ -230,8 +229,7 @@ Pro Datensatz können Links zu höchstens drei Bildern hinzugefügt werden.
 Unter dem Feld **Version** können Sie die Versionsnummer Ihres Datensatzes eintragen.
 Beim Feld **Versionshinweise** können Sie zusätzliche Informationen zum betreffenden Datensatzes erfassen.
 
-![Eingabefelder für die Version](/images/publizieren/manuelle-datenerfassung/dataset-version.png)
-<br/>
+![Eingabefelder für die Version](/images/publizieren/manuelle-datenerfassung/dataset-version.png) <br/>
 
 Sie sind am Ende der Eingabe der Metadatenfelder zur Beschreibung des Datensatzes angelangt.
 Sie können nun die Eingabe der Metadatenfelder speichern und schliessen.
@@ -312,8 +310,7 @@ Weitere Distributionen können Sie über die Schaltfläche **Erstellen** hinzuf�
 
 Schauen Sie sich die Beschreibung des Datensatzes und seiner Distributionen in der Detailansicht an: Wenn alle Felder wie erwartet ausgefüllt sind, können Sie Ihren Datensatz veröffentlichen.
 
-![Ansicht der beschriebenen Felder des Datensatzes](/images/publizieren/manuelle-datenerfassung/dataset-beschreibung-pruefen.png)
-<br/>
+![Ansicht der beschriebenen Felder des Datensatzes](/images/publizieren/manuelle-datenerfassung/dataset-beschreibung-pruefen.png) <br/>
 
 #### Ändern des Status
 
@@ -330,8 +327,7 @@ Danach kann der Eintrag auf **Registriert** gesetzt werden. Schlagen Sie nun die
 indem Sie den Kanal von **Intern** auf **I14Y** umstellen. Die Interoperabilitätsstelle wird die Metadaten prüfen und dann freischalten.
 Bei Problemen oder Verzögerungen kontaktieren Sie die [Interoperabilitätsstelle](Mailto:i14y@bfs.admin.ch).
 
-![Ansicht Auswahl Status I14Y](/images/publizieren/manuelle-datenerfassung/status-i14y.png)
-<br/>
+![Ansicht Auswahl Status I14Y](/images/publizieren/manuelle-datenerfassung/status-i14y.png) <br/>
 ![Ansicht Auswahl Status I14Y](/images/publizieren/manuelle-datenerfassung/status-uebersicht.png)
 
 Bitte informieren Sie [uns](Mailto:opendata@bfs.admin.ch), wenn die Datensätze zur Begutachtung bereit sind.
