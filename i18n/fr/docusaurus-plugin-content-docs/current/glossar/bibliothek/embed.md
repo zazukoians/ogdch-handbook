@@ -40,7 +40,7 @@ portal on other websites. Our current recommendation at this
 time is to use the
 [ckan-embed widget](#embed-widget), which can be configured here.
 
-<iframe src="../../..//examples/embed/embed.html" width="100%" height="420" style="border:0px;overflow:hidden" scrolling="no"></iframe>
+<iframe src="../../..//examples/embed/embed.html" width="100%" height="420" scrolling="no"></iframe>
 
 <a name="widget"></a>
 
