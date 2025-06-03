@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../index.md) 
+  [Handbuch](../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Kommunizieren](kommunizieren.md) 
+- [Kommunizieren](kommunizieren.md)
 
   ```
   :fa:`chevron-right`

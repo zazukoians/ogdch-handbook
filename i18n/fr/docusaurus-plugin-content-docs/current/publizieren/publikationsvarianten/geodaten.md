@@ -16,28 +16,28 @@ dass Ihre Daten auf geocat.ch vollständig erfasst sind.
 
 ### Harvesting von Geodaten (geocat.ch > opendata.swiss)
 
-* **Schritt 1:**
+- **Schritt 1:**
   Die Registrierung Ihrer Organisation auf opendata.swiss
   bleibt weiterhin eine Voraussetzung. Falls Ihre Organisation noch nicht eingerichtet ist,
   finden Sie [hier](../erstpublizierende.md) den Prozess beschrieben.
-* **Schritt 2:**
+- **Schritt 2:**
   Sobald die publizierende Organisation vorhanden ist, muss ein
-  «geocat-Harvester» eingerichtet werden.
-  Dafür benötigen Sie einen sogenannten CSW-Endpoint auf geocat.ch.
+  «geocat-Harvester» eingerichtet werden.\
+  Dafür benötigen Sie einen sogenannten CSW-Endpoint auf geocat.ch.\
   Das [geocat.ch-Team](mailto:geocat@swisstopo.ch) unterstützt Sie dabei.
-* **Schritt 3:**
+- **Schritt 3:**
   Nachdem der CSW-Endpoint eingerichtet ist, werden vom geocat.ch-Team in
   Absprache mit Ihnen die Harvesting-Tests durchgeführt. Dabei wird geprüft,
   ob der Prozess zum automatischen Transfer der Metadaten von geocat.ch zu
   opendata.swiss optimal funktioniert.
   [Hier](https://www.geocat.admin.ch/de/dokumentation/opendata.html)
   finden Sie die Anleitung dazu.
-* **Schritt 4:**
+- **Schritt 4:**
   Wenn die Vorbereitung der Veröffentlichung mit dem geocat.ch-Team abgeschlossen ist,
   informieren Sie [opendata.swiss](mailto:opendata@bfs.admin.ch)
-  darüber.
+  darüber.\
   Wir werden eine letzte Prüfung der Einträge durchführen und gemeinsam mit
-  Ihnen den «Go-Live» auf opendata.swiss planen.
+  Ihnen den «Go-Live» auf opendata.swiss planen.\
   Denken Sie bitte daran, dass wir in der Regel ca. 5 Arbeitstage für diesen Schritt benötigen.
 
 Wichtig: Selbstverständlich müssen auch hier die

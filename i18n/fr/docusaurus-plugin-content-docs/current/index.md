@@ -2,9 +2,9 @@
 slug: /
 ---
 
-# Willkommen
+# Bienvenue
 
-## Schön, dass Sie Open Government Data publizieren möchten! Wir unterstützen Sie dabei.
+## Vous souhaitez publier des données publiques ouvertes? Nous vous apportons notre soutien!
 
 Dieses Handbuch hilft Personen und Organisationen dabei,
 Daten als Open Government Data (OGD) zu veröffentlichen.
@@ -56,4 +56,4 @@ kontinuierlich weiterentwickelt. Ihr Feedback, liebe
 Nutzerinnen und Nutzer, ist dafür wesentlich. Haben Sie
 Anregungen zu Inhalten oder Erfahrungen, die Sie gerne
 mit uns teilen möchten?
-[Schreiben Sie uns.](mailto:opendata(at)bfs.admin.ch)
+[Schreiben Sie uns.](mailto:opendata\(at\)bfs.admin.ch)

@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Bibliothek](../bibliothek.md) 
+- [Bibliothek](../bibliothek.md)
 
   ```
   :fa:`chevron-right`

@@ -137,6 +137,7 @@ Klicken Sie dann auf den Tab «Jobs», um zur Jobliste zu gelangen:
 Hier können Sie die Harvesting Fehler im Detail ansehen:
 
 ![Detailreport Harvester-Job](/images/publizieren/harvesting/harvest-job-errors.png)
+
 - In der «Error Summary» sind die Fehlerarten mit der Häufigkeit ihres Vorkommens gelistet
 - Im «Error Report» sind alle Fehler einzeln gelistet.
 

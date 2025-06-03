@@ -1,6 +1,7 @@
 ---
 title: Informationen zur Organisation ergänzen
 ---
+
 # Informationen zur Organisation ergänzen
 
 ## Was muss ich bei Informationen zu meiner Organisation beachten?

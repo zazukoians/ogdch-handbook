@@ -2,6 +2,7 @@
 displayed_sidebar: sidebar
 title: Dateninventar erstellen
 ---
+
 # Dateninventar erstellen
 
 ## Welche Daten gibt es in meiner Organisation?
@@ -30,9 +31,9 @@ Diese Fragen helfen Ihnen bei dieser Kategorisierung:
 - Aufgrund welches Mandats (rechtliche Grundlage, Entscheid)
   werden die Daten publiziert?
 - Wer verwaltet diese Daten, wer ist für die Daten zuständig?
-- Wie erreichen Userinnen und User heute diese Daten?
+- Wie erreichen Userinnen und User heute diese Daten?\
   Sind die Daten bereits im Web publiziert, beispielsweise auf Daten-Portalen oder auf Websites?
-- Welche Daten sind von besonders hoher strategischer Bedeutung?
+- Welche Daten sind von besonders hoher strategischer Bedeutung?\
   Für welche Daten besteht eine besonders grosse Nachfrage?
 - In welcher Form (Format, Qualität) werden die Daten heute
   veröffentlicht?

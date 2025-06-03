@@ -4,27 +4,27 @@
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.Vorbereiten": {
-    "message": "Préparer",
+    "message": "Vorbereiten",
     "description": "The label for category Vorbereiten in sidebar sidebar"
   },
   "sidebar.sidebar.category.Auf einen Blick": {
-    "message": "Vue d’ensemble",
+    "message": "Auf einen Blick",
     "description": "The label for category Auf einen Blick in sidebar sidebar"
   },
   "sidebar.sidebar.category.Fürs jedes Dataset": {
-    "message": "Pour chaque jeu de données",
+    "message": "Fürs jedes Dataset",
     "description": "The label for category Fürs jedes Dataset in sidebar sidebar"
   },
   "sidebar.sidebar.category.Für Erst-Publizierende": {
-    "message": "Avant la première publication",
+    "message": "Für Erst-Publizierende",
     "description": "The label for category Für Erst-Publizierende in sidebar sidebar"
   },
   "sidebar.sidebar.category.Publizieren": {
-    "message": "Publier",
+    "message": "Publizieren",
     "description": "The label for category Publizieren in sidebar sidebar"
   },
   "sidebar.sidebar.category.Publikationsvariante auswählen": {
-    "message": "Choisir la variante de publication",
+    "message": "Publikationsvariante auswählen",
     "description": "The label for category Publikationsvariante auswählen in sidebar sidebar"
   }
 }

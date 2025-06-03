@@ -2,17 +2,17 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Kommunizieren](../kommunizieren.md) 
+- [Kommunizieren](../kommunizieren.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Über unsere Kanäle](../ogd.md) 
+- [Über unsere Kanäle](../ogd.md)
 
   ```
   :fa:`chevron-right`
@@ -42,11 +42,11 @@ Informationen gern über [unseren Twitter-Account](https://twitter.com/opendatas
 
 #### Vorgaben für Tweets
 
-| Text: max. 250 Zeichen (inkl. Leerschläge)   |
-|----------------------------------------------|
-| Link zu weiterführenden Informationen        |
-| Wenn möglich mit Bild und/oder Hashtags      |
-| Gewünschtes Erscheinungsdatum                |
+| Text: max. 250 Zeichen (inkl. Leerschläge) |
+| ------------------------------------------------------------------------------------------------------------- |
+| Link zu weiterführenden Informationen                                                                         |
+| Wenn möglich mit Bild und/oder Hashtags                                                                       |
+| Gewünschtes Erscheinungsdatum                                                                                 |
 
 <a id="twitter-beispiele"></a>
 

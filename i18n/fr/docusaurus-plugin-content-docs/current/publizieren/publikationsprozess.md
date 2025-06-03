@@ -1,6 +1,7 @@
 ---
 title: Publikationsprozess verstehen
 ---
+
 # Publikationsprozess verstehen
 
 ## Was muss ich über den Publikationsprozess wissen?

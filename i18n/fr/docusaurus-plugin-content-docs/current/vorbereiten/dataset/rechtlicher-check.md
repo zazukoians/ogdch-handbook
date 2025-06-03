@@ -79,7 +79,7 @@ sind möglich, die den Datennutzenden angezeigt werden:
 Bestimmend für die Auswahl der Nutzungsbedingung ist die
 [gesetzliche Grundlage](#vorbereiten-rechtlicher-check).
 Die zwei einzigen, möglichen Einschränkungen sind 1) die Pflicht zur Quellenangabe und
-2) die Pflicht zum Einholen einer Bewilligung für eine kommerzielle Nutzung.
+2\) die Pflicht zum Einholen einer Bewilligung für eine kommerzielle Nutzung.
 Schreibt die gesetzliche Grundlage eine oder beide Einschränkungen vor, müssen
 sie mittels der Nutzungsbedingung kommuniziert werden.
 

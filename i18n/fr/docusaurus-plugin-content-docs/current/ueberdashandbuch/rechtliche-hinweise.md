@@ -2,7 +2,7 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../index.md) 
+  [Handbuch](../../index.md)
 
   ```
   :fa:`chevron-right`
@@ -60,7 +60,7 @@ Es besteht jederzeit die Möglichkeit, die Registrierung wieder rückgängig zu 
 
 ## Webanalyse
 
-*handbook.opendata.swiss* verwendet den Open Source Webanalysedienst Matomo. Matomo
+_handbook.opendata.swiss_ verwendet den Open Source Webanalysedienst Matomo. Matomo
 verwendet sogenannte «Cookies», das sind Textdateien, die auf Ihrem Computer gespeichert
 werden und die eine Analyse Ihrer Benutzung der Website ermöglichen. Zur Analyse der
 Benutzung dieser Seite werden die durch den Cookie erzeugten Nutzungsinformationen

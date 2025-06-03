@@ -1,9 +1,10 @@
 ---
-title: Auf einen Blick
+title: Vue d’ensemble
 ---
-# Auf einen Blick
 
-## Daten vorbereiten
+# Vue d’ensemble
+
+## Préparer les données
 
 Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open
 Government Data publizieren können, müssen Sie sicherstellen,

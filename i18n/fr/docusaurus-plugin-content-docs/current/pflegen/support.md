@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../index.md) 
+  [Handbuch](../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Pflegen](pflegen.md) 
+- [Pflegen](pflegen.md)
 
   ```
   :fa:`chevron-right`
@@ -43,7 +43,7 @@ Werden Ihre Daten nicht korrekt oder unvollständig angezeigt?
   bitten wir Sie, uns folgende Informationen zuzustellen:
 
 | **Titel**                     | Eine grobe Beschreibung des Problems, der Frage                                                 |
-|-------------------------------|-------------------------------------------------------------------------------------------------|
+| ----------------------------- | ----------------------------------------------------------------------------------------------- |
 | **URL**                       | Vollständige URL, auf der Sie eine Aktion durchführen<br/>und/oder auf der das Problem auftritt |
 | **Username und Organisation** | Benutzername und Organisationszugehörigkeit                                                     |
 | **Beschreibung der Schritte** | Eine Schritt-für-Schritt-Beschreibung, wie das Problem<br/>reproduziert werden kann             |
@@ -60,7 +60,7 @@ Am besten reichen Sie [uns](mailto:opendata@bfs.admin.ch)
 Ihre Verbesserungsvorschläge in Form einer User Story ein.
 
 | **Für wen?**                        | “Als [Rolle]”                       |
-|-------------------------------------|-------------------------------------|
+| ----------------------------------- | --------------------------------------------------------------------------------------- |
 | **Was konkret?**                    | “möchte ich/möchten wir [Funktion]” |
 | **Was soll damit erreicht werden?** | “damit [Nutzen]”                    |
 

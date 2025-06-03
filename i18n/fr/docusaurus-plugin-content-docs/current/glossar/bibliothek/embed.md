@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Bibliothek](../bibliothek.md) 
+- [Bibliothek](../bibliothek.md)
 
   ```
   :fa:`chevron-right`
@@ -23,7 +23,7 @@ derzeit nur in Englisch verfügbar ist.
 A range of technical options are described here for embedding
 content from the CKAN open data platform on third party websites.
 Some data publishers may like to present datasets they have published at
-*opendata.swiss* on their own website. Several of the publishing
+_opendata.swiss_ on their own website. Several of the publishing
 institutions even have data portals on which they may like to feature
 any datasets which they maintain on the central catalog, even integrating
 this with other information on the website.
@@ -71,9 +71,9 @@ similar to the
 a feature that already has resource embedding built in, and the ability to
 white-list sites where this may be deployed using a `resource proxy` configuration option.
 
-Note that due to lack of CORS support, we provided an option to use JSONP to mitigate cross-site scripting restrictions. [JSONP is not recommended]([https://en.wikipedia.org/wiki/JSONP#Security_concerns](https://en.wikipedia.org/wiki/JSONP#Security_concerns)) in current best practices in Web development, and we advise that - if possible - developers should put in place a proxy service, as described [further down](#middleware).
+Note that due to lack of CORS support, we provided an option to use JSONP to mitigate cross-site scripting restrictions. [JSONP is not recommended](\[https://en.wikipedia.org/wiki/JSONP#Security_concerns]\(https://en.wikipedia.org/wiki/JSONP#Security_concerns\)) in current best practices in Web development, and we advise that - if possible - developers should put in place a proxy service, as described [further down](#middleware).
 
-Here is an example of how a search result from *opendata.swiss* appears in this widget:
+Here is an example of how a search result from _opendata.swiss_ appears in this widget:
 
 ![Example for an emmbedding of opendata.swiss on opentransportdata.swiss](/images/embed/embed-widget.png)
 
@@ -128,13 +128,13 @@ ck.datasets('#ckanEmbed', 'https://opendata.swiss/de/', {
 ### Summary
 
 we recommend the use of our JavaScript widget for embedding
-*opendata.swiss* datasets and search results. Full source code
+_opendata.swiss_ datasets and search results. Full source code
 and deployment instructions are available on
 the [ckan-embed project page](https://github.com/opendata-swiss/ckan-embed)).
 
 ## Cards
 
-It is possible to link directly to datasets and search results on *opendata.swiss*. For example:
+It is possible to link directly to datasets and search results on _opendata.swiss_. For example:
 
 - Link to a dataset:
   `https://opendata.swiss/en/dataset/verbreitung-der-steinbockkolonien`
@@ -181,11 +181,11 @@ For more in-depth discussion of metadata support see:
 [Make consistent all forms of RDF output from CKAN #1890](https://github.com/ckan/ckan/issues/1890).
 
 Summary: it is already possible to link directly to search pages and
-resources on *opendata.swiss*, however rich metadata in the page
+resources on _opendata.swiss_, however rich metadata in the page
 header is not yet supported. In a future release, pasting links from the
 portal into a Web platform that supports Web metadata protocols will
 enable a richer sharing experience. Until such time as Open Graph
-support is enabled on *opendata.swiss*, we recommend you to use the [Widget option](#embed-widget).
+support is enabled on _opendata.swiss_, we recommend you to use the [Widget option](#embed-widget).
 
 ## Frames
 
@@ -246,7 +246,7 @@ to facilitate this, or a load balancing server.
 Open Graph support (as discussed in the Cards section) would make
 it possible to use a compatible client-side library
 (e.g.: [Oembetter](https://github.com/punkave/oembetter)).
-Furthermore, soon on the *opendata.swiss* roadmap there will be
+Furthermore, soon on the _opendata.swiss_ roadmap there will be
 support for requesting DCAT-AP compatible RDF for any dataset.
 While this does not mean that the data itself is linked, it would
 also allow a more generic solution to displaying the metadata.
@@ -284,5 +284,5 @@ need to host CKAN, or at least be familiar with its schema, to make use of such 
 A compromise option, such as static snapshots of the API, could be another strategy
 to pursue in the future.
 
-In the meantime, we recommend that *opendata.swiss* content is embedded
+In the meantime, we recommend that _opendata.swiss_ content is embedded
 externally using the [JavaScript Widget](#embed-widget).

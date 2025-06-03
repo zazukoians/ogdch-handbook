@@ -1,6 +1,7 @@
 ---
 title: Organisation und Benutzer/innen erfassen und verwalten
 ---
+
 # Organisation und Benutzer/innen erfassen und verwalten
 
 ## Was muss ich tun, wenn ich zum ersten Mal Daten publizieren möchte?
@@ -27,7 +28,7 @@ Daten, die Sie publizieren möchten, ist für die Planung der Publikation hilfre
 Für die erste Aktivierung stellen Sie [uns](mailto:opendata@bfs.admin.ch)
 bitte folgende Informationen zur Verfügung:
 
-- Name und URL zur Webseite der Organisation, die Daten publizieren wird.
+- Name und URL zur Webseite der Organisation, die Daten publizieren wird.\
   Genauere Angaben zur Organisation können später hinzugefügt werden.
 - E-Mail-Adresse der Benutzerinnen und Benutzer, die
   Metadaten erfassen und verwalten werden. Verwenden Sie bitte für

@@ -1,6 +1,7 @@
 ---
 title: Publikationsrichtlinien
 ---
+
 # Publikationsrichtlinien
 
 ## Richtlinien für die Veröffentlichung von Open Government Data («OGD-Richtlinien»)
