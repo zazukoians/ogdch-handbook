@@ -1,6 +1,7 @@
 ---
 title: Für Erst-Publizierende
 ---
+
 # Für Erst-Publizierende
 
 ## Die erforderlichen Schritte im Überblick
