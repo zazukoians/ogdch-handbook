@@ -1,0 +1,34 @@
+local_backend: true
+
+backend:
+  name: github
+  branch: main
+  repo: <your-github>/my-website
+
+# These lines should *not* be indented
+media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: pages
+    label: "Pages"
+    folder: "docs"
+    extension: md
+    widget: "list"
+    create: true
+    nested:
+      depth: 10
+      summary: '{{title}}'
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - name: body
+        label: Body
+        widget: markdown
+    meta:
+      path:
+        widget: string
+        label: 'Path'
+        index_file: 'index'
+
