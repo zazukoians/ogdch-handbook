@@ -2,9 +2,9 @@
 slug: /
 ---
 
-# Willkommen
+# Bienvenue
 
-## Schön, dass Sie Open Government Data publizieren möchten! Wir unterstützen Sie dabei.
+## Vous souhaitez publier des données publiques ouvertes? Nous vous apportons notre soutien!
 
 Dieses Handbuch hilft Personen und Organisationen dabei,
 Daten als Open Government Data (OGD) zu veröffentlichen.
