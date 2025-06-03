@@ -58,8 +58,8 @@ auf Datasets abbilden können.
   Publikation von Auszügen («Snippets» oder «Previews») entspricht
   nicht den OGD-Vorgaben.
 - **Aktuell:** Die Datasets sollen der Öffentlichkeit innerhalb eines
-  angemessenen Zeitraums möglichst aktuell zur Verfügung stehen.
-  Sie werden veröffentlicht, sobald sie erhoben und zusammengestellt wurden.
+  angemessenen Zeitraums möglichst aktuell zur Verfügung stehen.\
+  Sie werden veröffentlicht, sobald sie erhoben und zusammengestellt wurden.\
   Daten, die in Echtzeit vorliegen, werden möglichst über eine
   Programmierschnittstelle (API) abgerufen.
 - **Kontextualisiert:** Die publizierten Daten sind ausreichend «kontextualisiert» zu
