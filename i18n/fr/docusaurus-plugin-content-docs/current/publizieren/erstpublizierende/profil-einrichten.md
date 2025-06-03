@@ -1,6 +1,7 @@
 ---
 title: Profil verwalten
 ---
+
 # Profil verwalten
 
 ## Wie kann ich mein Profil editieren?
@@ -66,6 +67,7 @@ Nicht vergessen: Bestätigen Sie alle gemachten
 Als Benutzer steht Ihnen ganz oben rechts eine Navigationsleiste zur Verfügung:
 
 ![Benutzer Navigationsleiste im Backend von opendata.swiss](/images/publizieren/benutzer/benutzer-navigation.png)
+
 - Das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard.
 - Wenn Sie auf Ihren Benutzernamen klicken, gelangen Sie zur
   Darstellung Ihres Profils, wie andere berechtigte Benutzerinnen und Benutzer  (etwa ein Sysadmin) Sie sehen.
