@@ -1,6 +1,7 @@
 ---
 title: opendata.swiss verstehen
 ---
+
 # opendata.swiss verstehen
 
 ## Der Publikationsprozess und das Portal opendata.swiss
