@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: "lts/*"
       - run: npm ci
+      - run: npm run crowdin:sync
+        env:
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
       - run: npm run build -- --config docusaurus.preview.config.ts
         env:
           IGNORE_BROKEN_LINKS: true
