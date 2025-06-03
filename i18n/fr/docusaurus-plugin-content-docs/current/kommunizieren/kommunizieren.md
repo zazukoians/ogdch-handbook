@@ -2,7 +2,7 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../index.md) 
+  [Handbuch](../../index.md)
 
   ```
   :fa:`chevron-right`
@@ -30,7 +30,7 @@ In diesem Leitfaden wird erklärt, wie man über das Thema Open Government Data 
 Durch eine gute Kommunikation werden folgende Ziele unterstützt:
 
 | Erhöhung der Sichtbarkeit von offenen Verwaltungsdaten                    |
-|---------------------------------------------------------------------------|
+| ------------------------------------------------------------------------- |
 | Förderung der Wiederverwendung von Datensätzen                            |
 | Aufbau der Open-Data-Gemeinschaft                                         |
 | Förderung des Dialogs zwischen Datenanbietenden und –nutzenden            |
