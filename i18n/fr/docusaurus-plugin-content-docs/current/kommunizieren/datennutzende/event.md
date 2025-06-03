@@ -2,17 +2,17 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Kommunizieren](../kommunizieren.md) 
+- [Kommunizieren](../kommunizieren.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Mit den Datennutzenden](../datennutzende.md) 
+- [Mit den Datennutzenden](../datennutzende.md)
 
   ```
   :fa:`chevron-right`
