@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "Handbook Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Handbuch": {
+    "message": "Handbuch",
+    "description": "Navbar item with label Handbuch"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

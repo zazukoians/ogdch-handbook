@@ -1,0 +1,32 @@
+```xml
+<gmd:protocol>
+    <gco:CharacterString>ESRI:REST</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>OGC:WMS</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>WWW:DOWNLOAD:INTERLIS</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>MAP:Preview</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>WWW:DOWNLOAD:APP</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>WWW:DOWNLOAD:URL</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>CHTOPO:specialised:geoportal</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>OGC:WFS</gco:CharacterString>
+</gmd:protocol>
+<gmd:protocol>
+    <gco:CharacterString>LINKED:DATA</gco:CharacterString>
+</gmd:protocol>
+```
