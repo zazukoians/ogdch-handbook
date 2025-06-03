@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
+  title: 'Handbuch Opendata.swiss 1.0 Dokumentation',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
   staticDirectories: ['static'],
@@ -51,13 +51,15 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'content',
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          sidebarCollapsible: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -66,25 +68,22 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Handbook Logo',
+        src: 'images/branding/logo_horizontal.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'sidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Handbuch',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'localeDropdown',
-          position: 'left',
+          position: 'right',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
