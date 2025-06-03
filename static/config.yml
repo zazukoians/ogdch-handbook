@@ -1,7 +1,7 @@
 backend:
   name: github
-  branch: main
-  repo: <your-github>/my-website
+  branch: docusaurus
+  repo: zazukoians/ogdch-handbook
 
 # These lines should *not* be indented
 media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
