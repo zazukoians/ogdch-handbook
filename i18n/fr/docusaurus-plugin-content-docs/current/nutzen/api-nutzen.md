@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../index.md) 
+  [Handbuch](../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Nutzen](nutzen.md) 
+- [Nutzen](nutzen.md)
 
   ```
   :fa:`chevron-right`
@@ -57,7 +57,7 @@ Je nach Einsatzzweck eignen sich verschiedene Arten. Für den Zugriff über den 
 empfehlen wir die Nutzung eines JSON-Viewers (nativ oder Plug-In), um die Lesbarkeit
 der Informationen zu verbessern.
 
-Die Basis-URL lautet *https://ckan.opendata.swiss/api/3/action/* und wird gefolgt von
+Die Basis-URL lautet _https://ckan.opendata.swiss/api/3/action/_ und wird gefolgt von
 der Aktion und allfälligen notwendigen Zusatzinformationen.
 
 ```default
@@ -76,8 +76,8 @@ ckanapi -r https://opendata.swiss action package_search fq='tags:economy'
 
 ### Action-API
 
-Alle Zugriffe verwenden das Wort *action*, wie in den Beispielen oben zu beobachten
-ist. Grundsätzlich sind die meisten Funktionen in CKAN als *action* programmiert,
+Alle Zugriffe verwenden das Wort _action_, wie in den Beispielen oben zu beobachten
+ist. Grundsätzlich sind die meisten Funktionen in CKAN als _action_ programmiert,
 so dass sie über die API angestossen werden können.
 Mehr dazu lesen Sie im Abschnitt [Action-API in der CKAN Dokumentation](https://docs.ckan.org/en/latest/api/#action-api-reference).
 
@@ -86,8 +86,8 @@ ausgegeben. Mehr über die Struktur von JSON Objekten erfahren Sie
 [hier](https://www.w3resource.com/JSON/structures.php).
 
 Zuerst wird Ihnen eine Adresse angezeigt, unter der Sie Hintergrundinformationen
-zu Ihrer Anfrage erhalten (*help*). Darauf meldet Ihnen das System, ob die Anfrage
-erfolgreich war (*success: true* oder *success: false*). Unter *result* finden
+zu Ihrer Anfrage erhalten (_help_). Darauf meldet Ihnen das System, ob die Anfrage
+erfolgreich war (_success: true_ oder _success: false_). Unter _result_ finden
 Sie die Inhalte Ihrer angefragten Informationen.
 
 <a id="api-nutzen-beispiel-response"></a>
@@ -98,36 +98,36 @@ Eine API-Abfrage über den Browser liefert Ihnen als Beispiel folgende Informati
 
 #### Übersicht Angaben Dataset-Ebene
 
-| Key                 | Value                                                                                                                                                                                                                                               |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| help                | Unter der angegebenen Adresse finden Sie weitere Informationen zur Query.                                                                                                                                                                           |
-| success             | War Ihre Query richtig formuliert, so dass ein Ergebniss gefunden wurde? Falls *True* ausgegeben wird, aber eine leere Liste retourniert wird, war die Syntax Ihrer Anfrage korrekt formuliert, aber keine Datensätze entsprechen Ihren Parametern. |
-| result              | Diese Datensätze entsprechen Ihrer Anfrage.                                                                                                                                                                                                         |
-| issued              | Das Erstelldatum des Datasets.                                                                                                                                                                                                                      |
-| title_for_slug      | Inhalt entspricht dem Namen des Datasets.                                                                                                                                                                                                           |
-| id                  | Die ID des Datasets.                                                                                                                                                                                                                                |
-| type                | Der Typ des Datasets. Mögliche Typen sind dataset, harvester, showcase.                                                                                                                                                                             |
-| description         | Die Beschreibung des Datasets.                                                                                                                                                                                                                      |
-| groups              | Die Kategorien, zu der das Dataset gehört.                                                                                                                                                                                                          |
-| publisher           | Die Stelle, welche das Dataset veröffentlicht hat. Inkl. name und url, etc.                                                                                                                                                                         |
-| organization        | Die dem Publisher übergeordnete Organisation, die für das Dataset inhaltlich verantwortlich ist. Inkl. Name, URL, Anzahl publizierter Datasets (i.e. package_count).                                                                                |
-| name                | Sprachunabhängiger Term, der für die API-Abfrage genutzt werden kann.                                                                                                                                                                               |
-| accrual_periodicity | Angabe, wie häufig das Dataset aktualisiert wird. Kontrolliertes Vokabular gemäss Standard von data.europa.eu.                                                                                                                                      |
-| resources           | Eine Auflistung der Ressourcen, die zum Dataset gehören. Darin finden sich auch die entsprechenden Metadaten zu den Ressourcen.                                                                                                                     |
+| Key                                                      | Value                                                                                                                                                                                                                                                                                        |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| help                                                     | Unter der angegebenen Adresse finden Sie weitere Informationen zur Query.                                                                                                                                                                                                    |
+| success                                                  | War Ihre Query richtig formuliert, so dass ein Ergebniss gefunden wurde? Falls _True_ ausgegeben wird, aber eine leere Liste retourniert wird, war die Syntax Ihrer Anfrage korrekt formuliert, aber keine Datensätze entsprechen Ihren Parametern.                          |
+| result                                                   | Diese Datensätze entsprechen Ihrer Anfrage.                                                                                                                                                                                                                                  |
+| issued                                                   | Das Erstelldatum des Datasets.                                                                                                                                                                                                                                               |
+| title_for_slug | Inhalt entspricht dem Namen des Datasets.                                                                                                                                                                                                                                    |
+| id                                                       | Die ID des Datasets.                                                                                                                                                                                                                                                         |
+| type                                                     | Der Typ des Datasets. Mögliche Typen sind dataset, harvester, showcase.                                                                                                                                                                                      |
+| description                                              | Die Beschreibung des Datasets.                                                                                                                                                                                                                                               |
+| groups                                                   | Die Kategorien, zu der das Dataset gehört.                                                                                                                                                                                                                                   |
+| publisher                                                | Die Stelle, welche das Dataset veröffentlicht hat. Inkl. name und url, etc.                                                                                                                                                                  |
+| organization                                             | Die dem Publisher übergeordnete Organisation, die für das Dataset inhaltlich verantwortlich ist. Inkl. Name, URL, Anzahl publizierter Datasets (i.e. package_count). |
+| name                                                     | Sprachunabhängiger Term, der für die API-Abfrage genutzt werden kann.                                                                                                                                                                                                        |
+| accrual_periodicity                 | Angabe, wie häufig das Dataset aktualisiert wird. Kontrolliertes Vokabular gemäss Standard von data.europa.eu.                                                                                                               |
+| resources                                                | Eine Auflistung der Ressourcen, die zum Dataset gehören. Darin finden sich auch die entsprechenden Metadaten zu den Ressourcen.                                                                                                                              |
 
 #### Übersicht Angaben Ressourcen-Ebene
 
-| Key           | Value                                                                 |
-|---------------|-----------------------------------------------------------------------|
+| Key                                | Value                                                                                 |
+| ---------------------------------- | ------------------------------------------------------------------------------------- |
 | package_id    | Die ID des Datasets, zu dem die Ressourcen gehören.                   |
-| issued        | Das Erstelldatum der Ressource.                                       |
-| id            | Die ID der Ressource.                                                 |
+| issued                             | Das Erstelldatum der Ressource.                                       |
+| id                                 | Die ID der Ressource.                                                 |
 | download_url  | Die Adresse, unter der die Ressource heruntergeladen werden kann.     |
-| media-type    | Der Medientyp der Ressource.                                          |
-| format        | Das Format der Ressource.                                             |
-| rights        | Die Nutzungsbedingungen der Ressource.                                |
-| created       | Der Zeitpunkt, als die Ressource in der Datenbank eingerichtet wurde. |
-| description   | Die Beschreibung der Ressource.                                       |
+| media-type                         | Der Medientyp der Ressource.                                          |
+| format                             | Das Format der Ressource.                                             |
+| rights                             | Die Nutzungsbedingungen der Ressource.                                |
+| created                            | Der Zeitpunkt, als die Ressource in der Datenbank eingerichtet wurde. |
+| description                        | Die Beschreibung der Ressource.                                       |
 | num_resources | Die Anzahl Ressourcen für das Dataset.                                |
 
 <a id="api-nutzen-terminologie"></a>
@@ -146,29 +146,29 @@ Ressourcen? Beachten Sie dabei die Ebenen: Die folgende Auflistung zeigt die wic
 Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:
 
 `organization`
-: Entspricht der [datenpublizierenden Organisation](https://opendata.swiss/de/organization).
-  Jedes Dataset wird von genau einer Organisation publiziert. Eine Organisation
-  kann jedoch Unterorganisationen haben.
+: Entspricht der [datenpublizierenden Organisation](https://opendata.swiss/de/organization).\
+Jedes Dataset wird von genau einer Organisation publiziert. Eine Organisation
+kann jedoch Unterorganisationen haben.
 
 `package`, `dataset`
 : Entspricht einem [Dataset](../glossar/begriffe.md#term-Dataset) bei opendata.swiss. Damit gemeint sind
-  die Metadaten zu einem Bündel von Ressourcen.
+die Metadaten zu einem Bündel von Ressourcen.
 
 `id`
-: Entspricht in der Regel dem [Slug](../glossar/begriffe.md#term-Slug) des Datasets oder der Organisation auf opendata.swiss.
-  Bei Ausnahmefällen konsultieren Sie bitte die CKAN-Dokumentation.
+: Entspricht in der Regel dem [Slug](../glossar/begriffe.md#term-Slug) des Datasets oder der Organisation auf opendata.swiss.\
+Bei Ausnahmefällen konsultieren Sie bitte die CKAN-Dokumentation.
 
 `resource`, `distribution`
 : Entspricht einer
-  [Ressource](https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Distribution) bei
-  Opendata.swiss. Die Plattform opendata.swiss hostet selbst keine Datasets oder Ressourcen,
-  stellt aber downloadUrls oder accesssUrls und teilweise auch Daten Previews zur Verfügung.
-  Ressourcen in CKAN entsprechen dcat:Distribution
-  im [DCAT AP Standard](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-ap-ch-distribution) .
+[Ressource](https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Distribution) bei
+Opendata.swiss. Die Plattform opendata.swiss hostet selbst keine Datasets oder Ressourcen,
+stellt aber downloadUrls oder accesssUrls und teilweise auch Daten Previews zur Verfügung.\
+Ressourcen in CKAN entsprechen dcat:Distribution
+im [DCAT AP Standard](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-ap-ch-distribution) .
 
 `group`
-: Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.
-  Entspricht [dcat:theme im DCAT AP Standard](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme).
+: Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.\
+Entspricht [dcat:theme im DCAT AP Standard](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme).
 
 <a id="api-nutzen-beispiele"></a>
 
