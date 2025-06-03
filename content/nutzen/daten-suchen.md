@@ -40,7 +40,7 @@ Feld `Titel` eine stärkere Gewichtung als das Feld `Beschreibung`. Die
 Suchmaschine Solr ordnet Ihre Anfrage entsprechend ein und liefert Ihnen
 je nach Suchstrategie die passenden Treffer.
 
-![Suchfeld auf der Seite Daten auf opendata.swiss](/images/daten-suchen/suchfeld-opendataswiss.png)![Suche auf opendata.swiss](/images/daten-suchen/Trefferliste_de.png)
+![Suchfeld auf der Seite Daten auf opendata.swiss](/images/daten-suchen/suchfeld-opendataswiss.png)![Suche auf opendata.swiss](/images/daten-suchen/trefferliste_de.png)
 
 ### Trefferliste
 
@@ -141,7 +141,7 @@ Wenn Sie nach Datasets suchen, die den Begriff *open*, aber nicht den Begriff *d
 können Sie den gewünschten Begriff mit dem Operator `+` einschliessen und den unerwünschten
 Begriff mit dem Operator `-` ausschliessen.
 
-![Suche nach Begriffen mit Plus-Zeichen vor open und Minus-Zeichen vor data](/images/daten-suchen/Suchmodus_plusundminus.png)
+![Suche nach Begriffen mit Plus-Zeichen vor open und Minus-Zeichen vor data](/images/daten-suchen/suchmodus_plusundminus.png)
 
 #### **Phrasensuche**
 
