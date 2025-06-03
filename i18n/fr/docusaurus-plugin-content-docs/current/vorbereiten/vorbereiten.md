@@ -1,6 +1,7 @@
 ---
 title: Auf einen Blick
 ---
+
 # Auf einen Blick
 
 ## Daten vorbereiten
