@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../index.md) 
+  [Handbuch](../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Pflegen](pflegen.md) 
+- [Pflegen](pflegen.md)
 
   ```
   :fa:`chevron-right`
