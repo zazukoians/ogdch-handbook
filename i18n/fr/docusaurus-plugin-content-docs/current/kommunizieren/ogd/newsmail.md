@@ -2,17 +2,17 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Kommunizieren](../kommunizieren.md) 
+- [Kommunizieren](../kommunizieren.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Über unsere Kanäle](../ogd.md) 
+- [Über unsere Kanäle](../ogd.md)
 
   ```
   :fa:`chevron-right`
@@ -40,10 +40,10 @@ Veröffentlichung einer neuen Ausgabe an, damit Sie Ihre Beiträge einreichen k�
 
 #### Vorgaben für Ihre Beiträge
 
-| Titel: max. 60 Zeichen (inkl. Leerschläge)   |
-|----------------------------------------------|
-| Text: max. 350 Zeichen                       |
-| Link zu weiterführenden Informationen        |
-| Wenn möglich mit Bild                        |
+| Titel: max. 60 Zeichen (inkl. Leerschläge) |
+| ------------------------------------------------------------------------------------------------------------- |
+| Text: max. 350 Zeichen                                                        |
+| Link zu weiterführenden Informationen                                                                         |
+| Wenn möglich mit Bild                                                                                         |
 
 [Showcases](showcases.md)
