@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Bibliothek](../bibliothek.md) 
+- [Bibliothek](../bibliothek.md)
 
   ```
   :fa:`chevron-right`
@@ -74,9 +74,9 @@ folgende Angaben:
 
   [`SKOS-RDF`](../../..//examples/opendataswiss-themes.rdf)
 - **Angaben zur Offenheit des Datasets**. Mögliche Werte:
-  + Open: Die Daten dürfen frei wiederverwendet werden
-  + Restricted: Die Daten dürfen nur unter spezifischen Nutzungsbedingungen (wie beispielsweise Datenschutzverträge) wiederverwendet werden
-  + Closed: Die Daten dürfen nicht wiederverwendet werden
+  - Open: Die Daten dürfen frei wiederverwendet werden
+  - Restricted: Die Daten dürfen nur unter spezifischen Nutzungsbedingungen (wie beispielsweise Datenschutzverträge) wiederverwendet werden
+  - Closed: Die Daten dürfen nicht wiederverwendet werden
 
 Die Sammlung der Informationen soll aufgrund von eCH-0200
 «DCAT-Anwendungsprofil für Datenportale in der Schweiz» gestaltet werden,
