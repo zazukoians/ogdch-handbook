@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Bibliothek](../bibliothek.md) 
+- [Bibliothek](../bibliothek.md)
 
   ```
   :fa:`chevron-right`
@@ -52,10 +52,10 @@ Resource Description Framework (RDF)
 
 Text (TXT)
 : [ISO Latin-1 (ISO 8859-1)](https://www.iso.org/standard/28245.html)
-  [ISO Latin-9 (ISO 8859-15)](https://www.iso.org/standard/29505.html)
-  Universal Coded Character Set (UCS) ([ISO 10646](https://www.iso.org/standard/63182.html))
-  US-ASCII (ANSI X3.4-1986, bzw. ISO/IEC 646-US
-  oder ISO/IEC 646:1991-IRV): [ISO/IEC 646-US:1991](https://www.iso.org/standard/4777.html)
+[ISO Latin-9 (ISO 8859-15)](https://www.iso.org/standard/29505.html)
+Universal Coded Character Set (UCS) ([ISO 10646](https://www.iso.org/standard/63182.html))
+US-ASCII (ANSI X3.4-1986, bzw. ISO/IEC 646-US
+oder ISO/IEC 646:1991-IRV): [ISO/IEC 646-US:1991](https://www.iso.org/standard/4777.html)
 
 <a id="term-Extensible-Hypertext-Markup-Language-XHTML"></a>
 
@@ -66,7 +66,7 @@ Extensible Hypertext Markup Language (XHTML)
 
 Portable Document Format (PDF)
 : nur PDF 1.7 [ISO 32000-1:2008](https://www.iso.org/standard/51502.html),
-  PDF/A [ISO 19005](https://www.iso.org/standard/38920.html)
+PDF/A [ISO 19005](https://www.iso.org/standard/38920.html)
 
 <a id="term-Office-Open-XML-Document-DOCX"></a>
 
@@ -113,7 +113,7 @@ INTERLIS
 <a id="term-INTERLIS-GML-gemass-eCH-0118"></a>
 
 INTERLIS/GML (gemäss eCH-0118)
-: [eCH-0118](http://www.ech.ch/vechweb/page?p=dossier&amp;documentNumber=eCH-0118)
+: [eCH-0118](http://www.ech.ch/vechweb/page?p=dossier&amp;amp;documentNumber=eCH-0118)
 
 <a id="term-ESRI"></a>
 
@@ -173,8 +173,8 @@ Ogg Vorbis
 
 MPEG4
 : [ISO/IEC 14496](https://www.iso.org/standard/61490.html),
-  [ISO/IEC 14496-3](https://www.iso.org/standard/53943.html),
-  [ISO/IEC 14496-14](https://www.iso.org/standard/39478.html),
+[ISO/IEC 14496-3](https://www.iso.org/standard/53943.html),
+[ISO/IEC 14496-14](https://www.iso.org/standard/39478.html),
 
 <a id="term-Wave7"></a>
 
