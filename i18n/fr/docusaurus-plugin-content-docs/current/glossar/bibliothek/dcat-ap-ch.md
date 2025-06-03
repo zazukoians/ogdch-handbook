@@ -2,12 +2,12 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Bibliothek](../bibliothek.md) 
+- [Bibliothek](../bibliothek.md)
 
   ```
   :fa:`chevron-right`
@@ -143,65 +143,65 @@ Translatable elements are marked as such under usage notes.
 
 #### Classes of DCAT-AP CH
 
-| class                                    | URI               | usage notes   |
-|------------------------------------------|-------------------|---------------|
+| class                                    | URI                               | usage notes   |
+| ---------------------------------------- | --------------------------------- | ------------- |
 | [Catalog](#dcat-ap-ch-catalog)           | dcat:Catalog      | **mandatory** |
 | [Dataset](#dcat-ap-ch-dataset)           | dcat:Dataset      | **mandatory** |
 | [Distribution](#dcat-ap-ch-distribution) | dcat:Distribution | **mandatory** |
 
 #### Properties of dcat:Catalog
 
-| property                         | URI          | usage notes   |
-|----------------------------------|--------------|---------------|
+| property                         | URI                          | usage notes   |
+| -------------------------------- | ---------------------------- | ------------- |
 | [dataset](#dcat-catalog-dataset) | dcat:dataset | **mandatory** |
 
 #### Properties of dcat:Dataset
 
-| property                                                                                             | URI                    | usage notes                                                                                                                   |
-|------------------------------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [title](#dcat-dataset-title)                                                                         | dct:title              | **mandatory**, multilingual                                                                                                   |
-| [description](#dcat-dataset-description)                                                             | dct:description        | **mandatory**, multilingual                                                                                                   |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [publisher](#dcat-dataset-publisher)                     | dct:publisher          | **mandatory**, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> import format changed                                    |
-| [contact point](#dcat-dataset-contact-point)                                                         | dcat:contactPoint      | **mandatory**                                                                                                                 |
-| [identifier](#dcat-dataset-identifier)                                                               | dct:identifier         | **mandatory**                                                                                                                 |
-| [distribution](#dcat-dataset-distribution)                                                           | dcat:distribution      | **mandatory**                                                                                                                 |
-| [issued](#dcat-dataset-issued)                                                                       | dct:issued             | conditional                                                                                                                   |
-| [modified](#dcat-dataset-modified)                                                                   | dct:modified           | conditional                                                                                                                   |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [theme](#dcat-dataset-theme)                             | dcat:theme             | conditional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> new vocabulary to use                                      |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [landing page](#dcat-dataset-landing-page)               | dcat:landingPage       | conditional,  <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> import format changed                                     |
-| [language](#dcat-dataset-language)                                                                   | dct:language           | conditional                                                                                                                   |
-| [keyword](#dcat-dataset-keyword)                                                                     | dcat:keyword           | optional, multilingual                                                                                                        |
-| [spatial](#dcat-dataset-spatial)                                                                     | dct:spatial            | optional                                                                                                                      |
-| [coverage](#dcat-dataset-coverage)                                                                   | dct:coverage           | optional                                                                                                                      |
-| [temporal](#dcat-dataset-temporal)                                                                   | dct:temporal           | optional                                                                                                                      |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [accrual periodicity](#dcat-dataset-accrual-periodicity) | dct:accrualPeriodicity | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> import format changed                                         |
-| [related resource](#dcat-dataset-relation)                                                           | dct:relation           | ```<br/>:fa:`exclamation`<br/>```<br/><br/> optional, **mandatory** for federal level, the legal basis must be indicated here |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [qualified relation](#dcat-dataset-qualified-relation)   | dcat:qualifiedRelation | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> replaces the property rdfs:seeAlso                            |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [documentation](#dcat-dataset-documentation)             | foaf:page              | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> new property                                                  |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [conforms to](#dcat-dataset-conforms-to)                 | dct:conformsTo         | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> new property                                                  |
+| property                                                                                           | URI                                    | usage notes                                                                                                                 |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [title](#dcat-dataset-title)                                                                       | dct:title              | **mandatory**, multilingual                                                                                                 |
+| [description](#dcat-dataset-description)                                                           | dct:description        | **mandatory**, multilingual                                                                                                 |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [publisher](#dcat-dataset-publisher)                     | dct:publisher          | **mandatory**, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> import format changed                                    |
+| [contact point](#dcat-dataset-contact-point)                                                       | dcat:contactPoint      | **mandatory**                                                                                                               |
+| [identifier](#dcat-dataset-identifier)                                                             | dct:identifier         | **mandatory**                                                                                                               |
+| [distribution](#dcat-dataset-distribution)                                                         | dcat:distribution      | **mandatory**                                                                                                               |
+| [issued](#dcat-dataset-issued)                                                                     | dct:issued             | conditional                                                                                                                 |
+| [modified](#dcat-dataset-modified)                                                                 | dct:modified           | conditional                                                                                                                 |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [theme](#dcat-dataset-theme)                             | dcat:theme             | conditional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> new vocabulary to use                                      |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [landing page](#dcat-dataset-landing-page)               | dcat:landingPage       | conditional,  <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> import format changed                                     |
+| [language](#dcat-dataset-language)                                                                 | dct:language           | conditional                                                                                                                 |
+| [keyword](#dcat-dataset-keyword)                                                                   | dcat:keyword           | optional, multilingual                                                                                                      |
+| [spatial](#dcat-dataset-spatial)                                                                   | dct:spatial            | optional                                                                                                                    |
+| [coverage](#dcat-dataset-coverage)                                                                 | dct:coverage           | optional                                                                                                                    |
+| [temporal](#dcat-dataset-temporal)                                                                 | dct:temporal           | optional                                                                                                                    |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [accrual periodicity](#dcat-dataset-accrual-periodicity) | dct:accrualPeriodicity | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> import format changed                                         |
+| [related resource](#dcat-dataset-relation)                                                         | dct:relation           | ``<br/>:fa:`exclamation`<br/>``<br/><br/> optional, **mandatory** for federal level, the legal basis must be indicated here |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [qualified relation](#dcat-dataset-qualified-relation)   | dcat:qualifiedRelation | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> replaces the property rdfs:seeAlso            |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [documentation](#dcat-dataset-documentation)             | foaf:page              | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> new property                                                  |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [conforms to](#dcat-dataset-conforms-to)                 | dct:conformsTo         | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> new property                                                  |
 
 #### Properties of dcat:Distribution
 
-| property                                                                                                  | URI                     | usage notes                                                                                         |
-|-----------------------------------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------|
-| [issued](#dcat-distribution-issued)                                                                       | dct:issued              | **mandatory**                                                                                       |
-| [access url](#dcat-distribution-access-url)                                                               | dcat:accessURL          | **mandatory**                                                                                       |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [license](#dcat-distribution-license)                         | dct:license             | **mandatory**, replaces dct:rights                                                                  |
-| [title](#dcat-distribution-title)                                                                         | dct:title               | conditional, multilingual                                                                           |
-| [description](#dcat-distribution-description)                                                             | dct:description         | conditional, multilingual                                                                           |
-| [byte size](#dcat-distribution-byte-size)                                                                 | dct:byteSize            | conditional                                                                                         |
-| [media type](#dcat-distribution-media-type)                                                               | dcat:mediaType          | conditional                                                                                         |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [format](#dcat-distribution-format)                           | dct:format              | conditional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> use a Controlled Vocabulary (CV) |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [rights](#dcat-distribution-rights)                           | dct:rights              | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> for exceptional use only            |
-| [language](#dcat-distribution-language)                                                                   | dct:language            | conditional                                                                                         |
-| [modified](#dcat-distribution-modified)                                                                   | dct:modified            | conditional                                                                                         |
-| [identifier](#dcat-distribution-identifier)                                                               | dct:identifier          | optional                                                                                            |
-| [download url](#dcat-distribution-download-url)                                                           | dcat:downloadURL        | optional                                                                                            |
-| [coverage](#dcat-distribution-coverage)                                                                   | dct:coverage            | optional                                                                                            |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [documentation](#dcat-distribution-documentation)             | foaf:page               | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> new property                        |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [temporal resolution](#dcat-distribution-temporal-resolution) | dcat:temporalResolution | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> new property                        |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [accessService](#dcat-distribution-access-service)            | dcat:accessService      | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> new property, read usage notes      |
-| ```<br/>:fa:`exclamation`<br/>```<br/><br/> [conforms to](#dcat-distribution-conforms-to)                 | dct:conformsTo          | optional, <br/><br/>```<br/>:fa:`exclamation`<br/>```<br/><br/> new property                        |
+| property                                                                                                | URI                                     | usage notes                                                                                                          |
+| ------------------------------------------------------------------------------------------------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [issued](#dcat-distribution-issued)                                                                     | dct:issued              | **mandatory**                                                                                                        |
+| [access url](#dcat-distribution-access-url)                                                             | dcat:accessURL          | **mandatory**                                                                                                        |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [license](#dcat-distribution-license)                         | dct:license             | **mandatory**, replaces dct:rights                                                                   |
+| [title](#dcat-distribution-title)                                                                       | dct:title               | conditional, multilingual                                                                                            |
+| [description](#dcat-distribution-description)                                                           | dct:description         | conditional, multilingual                                                                                            |
+| [byte size](#dcat-distribution-byte-size)                                                               | dct:byteSize            | conditional                                                                                                          |
+| [media type](#dcat-distribution-media-type)                                                             | dcat:mediaType          | conditional                                                                                                          |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [format](#dcat-distribution-format)                           | dct:format              | conditional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> use a Controlled Vocabulary (CV) |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [rights](#dcat-distribution-rights)                           | dct:rights              | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> for exceptional use only                               |
+| [language](#dcat-distribution-language)                                                                 | dct:language            | conditional                                                                                                          |
+| [modified](#dcat-distribution-modified)                                                                 | dct:modified            | conditional                                                                                                          |
+| [identifier](#dcat-distribution-identifier)                                                             | dct:identifier          | optional                                                                                                             |
+| [download url](#dcat-distribution-download-url)                                                         | dcat:downloadURL        | optional                                                                                                             |
+| [coverage](#dcat-distribution-coverage)                                                                 | dct:coverage            | optional                                                                                                             |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [documentation](#dcat-distribution-documentation)             | foaf:page               | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> new property                                           |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [temporal resolution](#dcat-distribution-temporal-resolution) | dcat:temporalResolution | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> new property                                           |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [accessService](#dcat-distribution-access-service)            | dcat:accessService      | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> new property, read usage notes                         |
+| ``<br/>:fa:`exclamation`<br/>``<br/><br/> [conforms to](#dcat-distribution-conforms-to)                 | dct:conformsTo          | optional, <br/><br/>``<br/>:fa:`exclamation`<br/>``<br/><br/> new property                                           |
 
 <a id="dcat-ap-ch-catalog"></a>
 
@@ -211,34 +211,34 @@ Translatable elements are marked as such under usage notes.
 
 #### dcat:Catalog (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:Catalog
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..1
-* **Description:**
+- **Description:**
   Catalog with datasets, usually a catalog endpoint
-* **Usage Notes:**
+- **Usage Notes:**
   If possible provide a URI, where the catalog can be accessed
 
 <a id="dcat-catalog-dataset"></a>
 
 #### dcat:dataset (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:dataset
-* **Domain:**
+- **Domain:**
   dcat:Catalog
-* **Value:**
+- **Value:**
   `dcat:Dataset`
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..n
-* **Description:**
+- **Description:**
   Datasets that are included in the catalog
-* **Usage Notes:**
+- **Usage Notes:**
   Provide at least one dataset per catalog
 
 <a id="dcat-ap-ch-dataset"></a>
@@ -249,36 +249,36 @@ Translatable elements are marked as such under usage notes.
 
 #### dcat:Dataset (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:Dataset
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..n
-* **Description:**
+- **Description:**
   A single dataset of the catalog
-* **Usage Notes:**
-  Provide at least one dataset per catalog.
+- **Usage Notes:**
+  Provide at least one dataset per catalog.\
   Provide a URI per dataset if possible
 
 <a id="dcat-dataset-identifier"></a>
 
 #### dct:identifier (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:identifier
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `rdfs:Literal` [http://www.w3.org/TR/rdf-schema/#ch_literal](http://www.w3.org/TR/rdf-schema/#ch_literal) with
   special requirements, see Usage Notes
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..1
-* **Description:**
+- **Description:**
   Unique identifier of the dataset across all publishers.
-* **Usage Notes:**
+- **Usage Notes:**
   The identifier is expected in the following structure:
   `[Source-Dataset-ID]@[Source-Organisation-ID]` where
   `[Source-Organisation-ID]` is the [slug](../begriffe.md#term-Slug) of
@@ -293,92 +293,94 @@ Translatable elements are marked as such under usage notes.
 
 #### dct:title (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:title
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `rdfs:Literal` [http://www.w3.org/TR/rdf-schema/#ch_literal](http://www.w3.org/TR/rdf-schema/#ch_literal)
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..4 (one for each language)
-* **Description:**
+- **Description:**
   Title of the dataset in different languages
-* **Usage Notes:**
-  * The title must be provided as language-tagged strings in at least one of the languages `en`, `de`, `fr`, `it`.
-  * Federal offices must provide the title in at least two official languages (`de`, `fr`, `it`). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (`en`, `de`, `fr`, `it`). Whenever possible, it should be provided in all four languages.
+- **Usage Notes:**
+  - The title must be provided as language-tagged strings in at least one of the languages `en`, `de`, `fr`, `it`.
+  - Federal offices must provide the title in at least two official languages (`de`, `fr`, `it`). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (`en`, `de`, `fr`, `it`). Whenever possible, it should be provided in all four languages.
 
 <a id="dcat-dataset-description"></a>
 
 #### dct:description (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:description
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `rdfs:Literal` [http://www.w3.org/TR/rdf-schema/#ch_literal](http://www.w3.org/TR/rdf-schema/#ch_literal)
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..4 (one for each language)
-* **Description:**
+- **Description:**
   Description of the dataset in different languages
-* **Usage Notes:**
-  * The description must be provided as language-tagged strings in at least one of the languages `en`, `de`, `fr`, `it`.
-  * Federal offices must provide the description in at least two official languages (`de`, `fr`, `it`). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (`en`, `de`, `fr`, `it`). Whenever possible, it should be provided in all four languages.
-  * Markdown can be used.
+- **Usage Notes:**
+  - The description must be provided as language-tagged strings in at least one of the languages `en`, `de`, `fr`, `it`.
+  - Federal offices must provide the description in at least two official languages (`de`, `fr`, `it`). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (`en`, `de`, `fr`, `it`). Whenever possible, it should be provided in all four languages.
+  - Markdown can be used.
 
 <a id="dcat-dataset-publisher"></a>
 
 #### dct:publisher (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:publisher
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
+
   ```
   :fa:`exclamation`
   ```
 
-   `foaf:Agent` [http://xmlns.com/foaf/spec/#term_Agent](http://xmlns.com/foaf/spec/#term_Agent)
-* **Requirement Level:**
+  `foaf:Agent` [http://xmlns.com/foaf/spec/#term_Agent](http://xmlns.com/foaf/spec/#term_Agent)
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..1
-* **Description:**
+- **Description:**
   The publisher is the organization with the legal authority
   to publish the dataset.
-* **Usage Notes:**
-  * The publisher’s name can be provided in the three official languages DE, FR and IT as well as in EN.
-  * Refer to the following for a distinction between `dct:publisher` and `dcat:contactPoint`:
+- **Usage Notes:**
+  - The publisher’s name can be provided in the three official languages DE, FR and IT as well as in EN.
+  - Refer to the following for a distinction between `dct:publisher` and `dcat:contactPoint`:
     [https://joinup.ec.europa.eu/release/how-are-publisher-and-contact-point-modelled](https://joinup.ec.europa.eu/release/how-are-publisher-and-contact-point-modelled)
-* **Update:**
+- **Update:**
+
   ```
   :fa:`exclamation`
   ```
 
-   Publisher must be a foaf:Agent.
+  Publisher must be a foaf:Agent.
 
 <a id="dcat-dataset-contact-point"></a>
 
 #### dcat:contactPoint (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:contactPoint
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `vcard:Kind`
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..n
-* **Description:**
+- **Description:**
   One or more contact email addresses for this dataset
-* **Usage Notes:**
+- **Usage Notes:**
   `vcard:Kind` is in itself a class: choose between
   `vcard:Organization` and `vcard:Individual` and
   set the attributes `vcard:hasEmail` and `vcard:fn`.
@@ -387,73 +389,73 @@ Translatable elements are marked as such under usage notes.
 
 #### dcat:distribution (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:distribution
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `dcat:Distribution`
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..n
-* **Description:**
+- **Description:**
   Distributions that belong to the dataset
-* **Usage Notes:**
+- **Usage Notes:**
   Provide at least one distribution per dataset
 
 <a id="dcat-dataset-issued"></a>
 
 #### dct:issued (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:issued
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   [rdfs:Literal](https://www.w3.org/TR/rdf-schema/#ch_literal) (typed as [xsd:date](https://www.w3.org/TR/xmlschema11-2/#date), [xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime), [xsd:gYear](https://www.w3.org/TR/xmlschema11-2/##gYear) or [xsd:gYearMonth](https://www.w3.org/TR/xmlschema11-2/#gYearMonth))
-* **Requirement Level:**
+- **Requirement Level:**
   conditional: required once the the dataset is published
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   Date of the first publication of the dataset
-* **Usage Notes:**
+- **Usage Notes:**
   Can be empty while the dataset is in preparation.
 
 <a id="dcat-dataset-modified"></a>
 
 #### dct-modified (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:modified
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   [rdfs:Literal](https://www.w3.org/TR/rdf-schema/#ch_literal) (typed as [xsd:date](https://www.w3.org/TR/xmlschema11-2/#date), [xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime), [xsd:gYear](https://www.w3.org/TR/xmlschema11-2/##gYear) or [xsd:gYearMonth](https://www.w3.org/TR/xmlschema11-2/#gYearMonth))
-* **Requirement Level:**
+- **Requirement Level:**
   conditional: required when the dataset has changed since its
   first publication
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   Date of the last change
 
 <a id="dcat-dataset-theme"></a>
 
 #### dcat:theme (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:theme
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   skos:Concept
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   This property refers to a theme/category of the dataset. A dataset can be associated
   with multiple themes. CV to be used: [[VOCAB-EU-THEME]](https://publications.europa.eu/resource/authority/data-theme)
 
@@ -461,152 +463,154 @@ Translatable elements are marked as such under usage notes.
 
 #### dct:language (DCAT)
 
-* **DCAT-URI:**
+- **DCAT-URI:**
   dct:language
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   [dct:LinguisticSystem](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/LinguisticSystem)
-* **Requirement Level:**
+- **Requirement Level:**
   conditional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   Languages in which distributions are available
-* **Usage Notes:**
-  * Should contain all languages for which a distribution of the dataset is available.
-  * If all distributions are language-independent, this field can be left out.
-  * CV to be used: [VOCAB-EU-LANGUAGE](https://publications.europa.eu/resource/authority/language)
-  * Only the languages `DEU`, `FRA`, `ENG`, `ITA` are currently imported to opendata.swiss
+- **Usage Notes:**
+  - Should contain all languages for which a distribution of the dataset is available.
+  - If all distributions are language-independent, this field can be left out.
+  - CV to be used: [VOCAB-EU-LANGUAGE](https://publications.europa.eu/resource/authority/language)
+  - Only the languages `DEU`, `FRA`, `ENG`, `ITA` are currently imported to opendata.swiss
 
 <a id="dcat-dataset-landing-page"></a>
 
 #### dcat:landingPage (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:landingPage
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
+
   ```
   :fa:`exclamation`
   ```
 
-   `foaf:Document` [http://xmlns.com/foaf/spec/#term_Document](http://xmlns.com/foaf/spec/#term_Document)
-* **Requirement Level:**
+  `foaf:Document` [http://xmlns.com/foaf/spec/#term_Document](http://xmlns.com/foaf/spec/#term_Document)
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   Website of the dataset with related information
-* **Usage Notes:**
+- **Usage Notes:**
   If data of the dataset is only accessible via a landing page
   (i.e. direct download URLs are not known), the landing page must be set and
   the link should be duplicated as `dcat:accessURL` on a distribution.
-* **Update:**
+- **Update:**
+
   ```
   :fa:`exclamation`
   ```
 
-   Use a resource instead of a string literal for the landing page
+  Use a resource instead of a string literal for the landing page
 
 <a id="dcat-dataset-relation"></a>
 
 #### dct:relation (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:relation
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `rdfs:Resource`
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   related resource
-* **Usage Notes:**
-  * Link to documents that provide further information for the dataset
-  * This property is also used to link to the legal basis regarding the publication of the dataset
-  * Labels for the link can be specified in the four languages `de`, `fr`, `it`, `en`.
+- **Usage Notes:**
+  - Link to documents that provide further information for the dataset
+  - This property is also used to link to the legal basis regarding the publication of the dataset
+  - Labels for the link can be specified in the four languages `de`, `fr`, `it`, `en`.
 
 <a id="dcat-dataset-documentation"></a>
 
 #### foaf:page (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   foaf:page
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `foaf:Document`
-* **Requirement Level:**
+- **Requirement Level:**
   Optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   documentation
-* **Usage Notes:**
+- **Usage Notes:**
   This property refers to a page or document about this dataset
 
 <a id="dcat-dataset-conforms-to"></a>
 
 #### dct:conformsTo (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:conformsTo
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `dct:Standard`
-* **Requirement Level:**
+- **Requirement Level:**
   Optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   This property refers to an implementing rule or other specification.
-* **Usage Notes:**
+- **Usage Notes:**
   This property SHOULD be used to indicate the model, schema, ontology, view or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the format or media-type.
 
 <a id="dcat-dataset-keyword"></a>
 
 #### dcat:keyword (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:keyword
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `rdfs:Literal` [http://www.w3.org/TR/rdf-schema/#ch_literal](http://www.w3.org/TR/rdf-schema/#ch_literal)
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   Keywords that match the topic of the dataset and help data users to find it
-* **Usage Notes:**
-  * Keywords can be added as localized strings in the 4 languages `en`, `de`, `fr`, `it`.
-  * Federal offices provide keywords in at least two official languages (`de`, `fr`, `it`). All others provide keywords in at least one language. However, for optimal search results, it is best to provide keywords in all four languages.
+- **Usage Notes:**
+  - Keywords can be added as localized strings in the 4 languages `en`, `de`, `fr`, `it`.
+  - Federal offices provide keywords in at least two official languages (`de`, `fr`, `it`). All others provide keywords in at least one language. However, for optimal search results, it is best to provide keywords in all four languages.
 
 <a id="dcat-dataset-spatial"></a>
 
 #### dct:spatial (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:spatial
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `dct:Location` [https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-Location](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-Location)
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   Geographical classification of the dataset.
-* **Usage Notes:**
-  Can be a description, coordinates, a bounding-box or a polygon.
+- **Usage Notes:**
+  Can be a description, coordinates, a bounding-box or a polygon.\
   This field currently supports GeoJSON with the
   [LOCN extension](https://www.w3.org/community/locadd/wiki/LOCN_extension:_Metadata) .
   See also: [How should dct:spatial and dct:Location be used?](https://joinup.ec.europa.eu/release/how-should-dctspatial-and-dctlocation-be-used)                                |
@@ -615,41 +619,41 @@ Translatable elements are marked as such under usage notes.
 
 #### dct:coverage (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:coverage
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   `dct:LocationPeriodOrJurisdiction`,
   see [http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction](http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction)
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   The location or time a dataset covers.
-* **Usage Notes:**
-  This property is deprecated and might be excluded from future versions of DCAT-AP CH.
-  Consider using `dct:temporal` or `dct:spatial`.
+- **Usage Notes:**
+  This property is deprecated and might be excluded from future versions of DCAT-AP CH.\
+  Consider using `dct:temporal` or `dct:spatial`.\
   If a date is provided, it does not have to be an ISO date.
 
 <a id="dcat-dataset-temporal"></a>
 
 #### dct:temporal (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:temporal
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   [dct:PeriodOfTime](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-PeriodOfTime). Start and end date as [rdfs:Literal](https://www.w3.org/TR/rdf-schema/#ch_literal) (typed as [xsd:date](https://www.w3.org/TR/xmlschema11-2/#date), [xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime), [xsd:gYear](https://www.w3.org/TR/xmlschema11-2/##gYear) or [xsd:gYearMonth](https://www.w3.org/TR/xmlschema11-2/#gYearMonth))
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   One or more time period(s) that the dataset covers.
-* **Usage Notes:**
+- **Usage Notes:**
   `<schema:startDate>` contains the start date,
   `<schema:endDate>` contains the end date. It needs a start and end date. If you do not know the end date, please do not use the property.
 
@@ -657,48 +661,50 @@ Translatable elements are marked as such under usage notes.
 
 #### dct:accrual-periodicity (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:accrualPeriodicity
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
+
   ```
   :fa:`exclamation`
   ```
 
-   Controlled vocabulary [http://publications.europa.eu/resource/authority/frequency](http://publications.europa.eu/resource/authority/frequency)
-* **Requirement Level:**
+  Controlled vocabulary [http://publications.europa.eu/resource/authority/frequency](http://publications.europa.eu/resource/authority/frequency)
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   The frequency with which this dataset is updated.
-* **Usage Notes:**
+- **Usage Notes:**
   Provide a term of the controlled vocabulary in the form of a URI.
-* **Update:**
+- **Update:**
+
   ```
   :fa:`exclamation`
   ```
 
-   Use EU vocabulary that is mandatory on DCAT-AP.
+  Use EU vocabulary that is mandatory on DCAT-AP.
 
 <a id="dcat-dataset-qualified-relation"></a>
 
 #### dcat:qualifiedRelation (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   [dcat:qualifiedRelation](https://www.w3.org/TR/vocab-dcat/#Property:resource_qualified_relation)
-* **Domain:**
+- **Domain:**
   dcat:Dataset
-* **Value:**
+- **Value:**
   [rdfs:Resource](https://www.w3.org/TR/vocab-dcat/#Class:Relationship)
-* **Requirement Level:**
+- **Requirement Level:**
   Optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   Link to related datasets on opendata.swiss.
-* **Usage Notes:**
+- **Usage Notes:**
   Contains the identifier of the related dataset. The perma link must be used:
 
   `https://ogdch-abnahme.clients.liip.ch/perma/adb280a9-381d-4fb3-ae43-b40ace826dc7@stadt-zurich"`
@@ -711,96 +717,96 @@ Translatable elements are marked as such under usage notes.
 
 #### dcat:Distribution (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:Distribution
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..n
-* **Description:**
+- **Description:**
   A single distribution of a dataset
-* **Usage Notes:**
+- **Usage Notes:**
   Provide at least one distribution per dataset
 
 <a id="dcat-distribution-access-url"></a>
 
 #### dcat:accessURL (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:accessURL
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [rdfs:Resource](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/Standard)
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..n
-* **Description:**
+- **Description:**
   A URL of the resource that gives access to a distribution of the dataset. E.g., landing page, feed, SPARQL endpoint.
-* **Usage Notes:**
-  * `dcat:accessURL` SHOULD be used for the URL of a service or location that can provide access to this distribution, typically through a Web form, query or API call.
-  * If the accessURL is also a downloadURL, then it must be also entered in the `dcat:downloadURL` field.
-  * If the distribution(s) are accessible only through a landing page (i.e., direct download URLs are not known), then the landing page URL associated with the dcat:Dataset SHOULD be duplicated as access URL on a distribution.
-  * The use of [http://www.w3.org/2001/XMLSchema#anyURI](http://www.w3.org/2001/XMLSchema#anyURI) is deprecated.
+- **Usage Notes:**
+  - `dcat:accessURL` SHOULD be used for the URL of a service or location that can provide access to this distribution, typically through a Web form, query or API call.
+  - If the accessURL is also a downloadURL, then it must be also entered in the `dcat:downloadURL` field.
+  - If the distribution(s) are accessible only through a landing page (i.e., direct download URLs are not known), then the landing page URL associated with the dcat:Dataset SHOULD be duplicated as access URL on a distribution.
+  - The use of [http://www.w3.org/2001/XMLSchema#anyURI](http://www.w3.org/2001/XMLSchema#anyURI) is deprecated.
 
 <a id="dcat-distribution-download-url"></a>
 
 #### dcat:downloadURL (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:downloadURL
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [rdfs:Resource](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/Standard)
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   URL for the download, if the distribution can be downloaded
-* **Usage Notes:**
-  * If the distribution can be downloaded, this property usually contains the same URL as `dcat:accessURL`. See also [https://www.w3.org/ns/dcat#downloadURL](https://www.w3.org/ns/dcat#downloadURL)
-  * The use of [http://www.w3.org/2001/XMLSchema#anyURI](http://www.w3.org/2001/XMLSchema#anyURI) is deprecated.
+- **Usage Notes:**
+  - If the distribution can be downloaded, this property usually contains the same URL as `dcat:accessURL`. See also [https://www.w3.org/ns/dcat#downloadURL](https://www.w3.org/ns/dcat#downloadURL)
+  - The use of [http://www.w3.org/2001/XMLSchema#anyURI](http://www.w3.org/2001/XMLSchema#anyURI) is deprecated.
 
 <a id="dcat-distribution-issued"></a>
 
 #### dct:issued (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:issued
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [rdfs:Literal](https://www.w3.org/TR/rdf-schema/#ch_literal) (typed as [xsd:date](https://www.w3.org/TR/xmlschema11-2/#date), [xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime), [xsd:gYear](https://www.w3.org/TR/xmlschema11-2/##gYear) or [xsd:gYearMonth](https://www.w3.org/TR/xmlschema11-2/#gYearMonth))
-* **Requirement Level:**
+- **Requirement Level:**
   mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..1
-* **Description:**
+- **Description:**
   Date of the publication of this distribution
 
 <a id="dcat-distribution-rights"></a>
 
 #### dct:rights (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:rights
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [dct:RightsStatement](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/RightsStatement)
-* **Requirement Level:**
+- **Requirement Level:**
   Recommended
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   This property refers to a statement that specifies rights associated with the Distribution. Only used in exceptional cases (see usage notes below).
-* **Usage notes:**
-  * **Important!** The [dct:licence](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-license-dcat) property is required to specify the [terms of use](https://opendata.swiss/de/terms-of-use) of opendata.swiss.
-  * **Exception:** dct:rights is therefore only used if a publisher uses datasets with CC licences in its catalogue, which it wants to forward to data.europa.eu. These can then be specified under dct:rights. On opendata.swiss, only the three CC licences specified below are imported under dct:rights and forwarded to the portal data.europa.eu. The CC licences are not displayed on opendata.swiss.
-  * CV to be used for the CC-License: [DCAT-AP CH license vocabulary](https://dcat-ap.ch/vocabulary/licenses/20240716.html)
+- **Usage notes:**
+  - **Important!** The [dct:licence](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-license-dcat) property is required to specify the [terms of use](https://opendata.swiss/de/terms-of-use) of opendata.swiss.
+  - **Exception:** dct:rights is therefore only used if a publisher uses datasets with CC licences in its catalogue, which it wants to forward to data.europa.eu. These can then be specified under dct:rights. On opendata.swiss, only the three CC licences specified below are imported under dct:rights and forwarded to the portal data.europa.eu. The CC licences are not displayed on opendata.swiss.
+  - CV to be used for the CC-License: [DCAT-AP CH license vocabulary](https://dcat-ap.ch/vocabulary/licenses/20240716.html)
 
 ```default
 https://creativecommons.org/publicdomain/zero/1.0/
@@ -830,41 +836,42 @@ NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired
 
 #### dcat:mediaType (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:mediaType
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   `dct:MediaType` must be a MIME type of [[IANA-MEDIA-TYPES]](http://www.iana.org/assignments/media-types/media-types.xhtml)
-* **Requirement Level:**
+- **Requirement Level:**
   conditional, required if the distribution is  a file accessible by a `dcat:downloadURL`
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   Resource format of the data provided by the `dcat:downloadURL`
-* **Usage Notes:**
+- **Usage Notes:**
   Not required for distributions that have only a `dcat:accessURL`
 
 <a id="dcat-distribution-format"></a>
 
 #### dct:format (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:format
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [dct:MediaTypeOrExtent](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/MediaTypeOrExtent)
-* **Requirement Level:**
+- **Requirement Level:**
   Recommended, required if the distribution is accessible by a `dcat:downloadURL`
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   This property refers to the file format of the distribution
-* **Usage Notes:**
+- **Usage Notes:**
   CV to be used: [[VOCAB-EU-FILE-TYPE](https://dcat-ap.ch/releases/2.0/dcat-ap-ch.html#bib-vocab-eu-file-type)]
 
   If a format is not available:
+
   > 1. media type [[IANA-MEDIA-TYPES](https://dcat-ap.ch/releases/2.0/dcat-ap-ch.html#bib-iana-media-types)] should be used
   > 2. if required, please contact [Geschäftsstelle OGD](mailto:opendata@bfs.admin.ch).
 
@@ -872,37 +879,37 @@ NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired
 
 #### dcat:byteSize (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:byteSize
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   `rdfs:Literal` typed as `xsd:decimal` or `xsd:nonNegativeInteger`
-* **Requirement Level:**
+- **Requirement Level:**
   conditional, required if the distribution is accessible by a `dcat:downloadURL`
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   Size of the data in bytes
-* **Usage Notes:**
+- **Usage Notes:**
   Must be a non negative integer.
 
 <a id="dcat-distribution-modified"></a>
 
 #### dct:modified (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   RDF-property `dct:modified` of `dcat:Distribution`
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [rdfs:Literal](https://www.w3.org/TR/rdf-schema/#ch_literal) (typed as [xsd:date](https://www.w3.org/TR/xmlschema11-2/#date), [xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime), [xsd:gYear](https://www.w3.org/TR/xmlschema11-2/##gYear) or [xsd:gYearMonth](https://www.w3.org/TR/xmlschema11-2/#gYearMonth))
-* **Requirement Level:**
+- **Requirement Level:**
   conditional: required if the distribution has changed since its first
   publication.
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   Date of the last change to the distribution. If this distribution has been changed several times,
   this corresponds to the date of the latest change.
 
@@ -910,102 +917,102 @@ NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired
 
 #### dct:title (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:title
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   `rdfs:Literal` [http://www.w3.org/TR/rdf-schema/#ch_literal](http://www.w3.org/TR/rdf-schema/#ch_literal)
-* **Requirement Level:**
+- **Requirement Level:**
   conditional
-* **Cardinality:**
+- **Cardinality:**
   0..4 (one for each language)
-* **Description:**
+- **Description:**
   The title of the distribution
-* **Usage Notes:**
-  * The title is mandatory if the distribution contains only a part of the content covered by the dataset: for example if it contains only the data for one year, whereas the dataset covers several years in total.
-  * The title must be provided as language-tagged strings in at least one of the languages `en`, `de`, `fr`, `it`.
-  * Federal offices must provide the title in at least two official languages (`de`, `fr`, `it`). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (`en`, `de`, `fr`, `it`). Whenever possible, it should be provided in all four languages.
+- **Usage Notes:**
+  - The title is mandatory if the distribution contains only a part of the content covered by the dataset: for example if it contains only the data for one year, whereas the dataset covers several years in total.
+  - The title must be provided as language-tagged strings in at least one of the languages `en`, `de`, `fr`, `it`.
+  - Federal offices must provide the title in at least two official languages (`de`, `fr`, `it`). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (`en`, `de`, `fr`, `it`). Whenever possible, it should be provided in all four languages.
 
 <a id="dcat-distribution-description"></a>
 
 #### dct:description (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:description
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   `rdfs:Literal` [http://www.w3.org/TR/rdf-schema/#ch_literal](http://www.w3.org/TR/rdf-schema/#ch_literal)
-* **Requirement Level:**
+- **Requirement Level:**
   conditional: required if the distribution does not contain all the content of the dataset.
-* **Cardinality:**
+- **Cardinality:**
   0..4 (one for each language)
-* **Description:**
+- **Description:**
   Description of the dataset in different languages
-* **Usage Notes:**
-  * The description must be provided as language-tagged strings in at least one of the languages `en`, `de`, `fr`, `it`.
-  * Federal offices must provide the description in at least two official languages (`de`, `fr`, `it`). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (`en`, `de`, `fr`, `it`). Whenever possible, it should be provided in all four languages.
-  * Markdown can be used.
+- **Usage Notes:**
+  - The description must be provided as language-tagged strings in at least one of the languages `en`, `de`, `fr`, `it`.
+  - Federal offices must provide the description in at least two official languages (`de`, `fr`, `it`). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (`en`, `de`, `fr`, `it`). Whenever possible, it should be provided in all four languages.
+  - Markdown can be used.
 
 <a id="dcat-distribution-language"></a>
 
 #### dct:language (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:language
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [dct:LinguisticSystem](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/LinguisticSystem)
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   Language in which this distribution is available.
-* **Usage Notes:**
-  * If the distribution is language independent, this can be left out
-  * This property can be repeated if the metadata is provided in multiple languages
-  * CV to be used: [VOCAB-EU-LANGUAGE](https://publications.europa.eu/resource/authority/language)
-  * Only the languages `DEU`, `FRA`, `ENG`, `ITA` are currently imported to opendata.swiss
+- **Usage Notes:**
+  - If the distribution is language independent, this can be left out
+  - This property can be repeated if the metadata is provided in multiple languages
+  - CV to be used: [VOCAB-EU-LANGUAGE](https://publications.europa.eu/resource/authority/language)
+  - Only the languages `DEU`, `FRA`, `ENG`, `ITA` are currently imported to opendata.swiss
 
 <a id="dcat-distribution-identifier"></a>
 
 #### dct:identifier (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:identifier
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   `rdfs:Literal` [http://www.w3.org/TR/rdf-schema/#ch_literal](http://www.w3.org/TR/rdf-schema/#ch_literal)
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   Identifier of the distribution in the source system
 
 <a id="dcat-distribution-coverage"></a>
 
 #### dct:coverage (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:coverage
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   `dct:LocationPeriodOrJurisdiction`,
   see [http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction](http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction)
-* **Requirement Level:**
+- **Requirement Level:**
   optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   Distributions can be marked by a location or time period (for example, one for each canton,
   one for each year, etc.)
-* **Usage Notes:**
+- **Usage Notes:**
   This property is a string. When it is used to indicate a date, a custom format
   can be used.
 
@@ -1013,26 +1020,26 @@ NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired
 
 #### dct:license (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   [dct:license](https://www.w3.org/TR/vocab-dcat/#Property:distribution_license)
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [dct:LicenseDocument](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#LicenseDocument)
-* **Requirement Level:**
+- **Requirement Level:**
   Mandatory
-* **Cardinality:**
+- **Cardinality:**
   1..1
-* **Description:**
+- **Description:**
   The [terms of use](https://opendata.swiss/de/terms-of-use) indicates for what purpose and in what context
-  the data of a distribution can be used: for commercial or for non commercial purposes.
-  Does it need to be referenced, when it is used? Must permission be obtained for commercial use.
+  the data of a distribution can be used: for commercial or for non commercial purposes.\
+  Does it need to be referenced, when it is used? Must permission be obtained for commercial use.\
   These conditions are included in the terms of use statements. See the list below for the exact values.
-* **Usage Notes:**
-  * Terms of use are no longer referenced under `dct:rights`, but under `dct:license`.
-  * **Exception:** If a CC-license is used for the dataset in addition to the terms of use, it must be referenced under [dct:rights](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-rights-dcat). Only the terms of use from the list below are displayed on opendata.swiss. If CC-licenses are included, they should be referenced under `dct:rights` to pass on to the portal data.europa.eu.
-  * CV to be used for the terms of use: [DCAT-AP CH license vocabulary](https://dcat-ap.ch/vocabulary/licenses/20240716.html)
-  * This field ensures compatibility to other metadata standards such as DCAT-AP.
+- **Usage Notes:**
+  - Terms of use are no longer referenced under `dct:rights`, but under `dct:license`.
+  - **Exception:** If a CC-license is used for the dataset in addition to the terms of use, it must be referenced under [dct:rights](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-rights-dcat). Only the terms of use from the list below are displayed on opendata.swiss. If CC-licenses are included, they should be referenced under `dct:rights` to pass on to the portal data.europa.eu.
+  - CV to be used for the terms of use: [DCAT-AP CH license vocabulary](https://dcat-ap.ch/vocabulary/licenses/20240716.html)
+  - This field ensures compatibility to other metadata standards such as DCAT-AP.
 
 ```default
 http://dcat-ap.ch/vocabulary/licenses/terms_open
@@ -1063,79 +1070,79 @@ NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired
 
 #### foaf:page (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   foaf:page
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   `foaf:Document`
-* **Requirement Level:**
+- **Requirement Level:**
   Optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   documentation
-* **Usage Notes:**
+- **Usage Notes:**
   This property refers to a page or document about this Distribution.
 
 <a id="dcat-distribution-temporal-resolution"></a>
 
 #### dcat:temporalResolution (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dcat:temporalResolution
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   `xsd:duration` [https://www.w3.org/TR/xmlschema11-2/#duration](https://www.w3.org/TR/xmlschema11-2/#duration)
-* **Requirement Level:**
+- **Requirement Level:**
   Optional
-* **Cardinality:**
+- **Cardinality:**
   0..1
-* **Description:**
+- **Description:**
   Minimum time period resolvable in the dataset distribution.
-* **Usage Notes:**
+- **Usage Notes:**
   If the dataset is a time-series this should correspond to the spacing
   of the items in the series. For other kinds of dataset, this property will
   usually indicate the smallest time difference between items in the dataset.
-* **Usage Notes:**
+- **Usage Notes:**
   Alternative temporal resolutions might be provided in different dataset distributions.
 
 <a id="dcat-distribution-access-service"></a>
 
 #### dcat:accessService (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   [dcat:accessService](https://www.w3.org/TR/vocab-dcat/#Property:distribution_access_service)
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [dcat:DataService](https://www.w3.org/TR/vocab-dcat/#Class:Data_Service) ([Class: Data Service](https://dcat-ap.ch/releases/2.0/dcat-ap-ch.html#Class:Data_Service))
-* **Requirement Level:**
+- **Requirement Level:**
   Optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   This property refers to a data service that gives access to the distribution of the Dataset.
-* **Usage Notes:**
-  The class dcat:DataService is currently not implemented in opendata.swiss and will therefore not be imported.
+- **Usage Notes:**
+  The class dcat:DataService is currently not implemented in opendata.swiss and will therefore not be imported.\
   However, if the property dcat:accessService exists in the catalogue, it will be imported and forwarded to data.europa.eu.
 
 <a id="dcat-distribution-conforms-to"></a>
 
 #### dct:conformsTo (DCAT)
 
-* **DCAT URI:**
+- **DCAT URI:**
   dct:conformsTo
-* **Domain:**
+- **Domain:**
   dcat:Distribution
-* **Value:**
+- **Value:**
   [dct:Standard](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/Standard)
-* **Requirement Level:**
+- **Requirement Level:**
   Optional
-* **Cardinality:**
+- **Cardinality:**
   0..n
-* **Description:**
+- **Description:**
   This property refers to an implementing rule or other specification.
-* **Usage Notes:**
+- **Usage Notes:**
   This property SHOULD be used to indicate the model, schema, ontology, view or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the format or media-type.
