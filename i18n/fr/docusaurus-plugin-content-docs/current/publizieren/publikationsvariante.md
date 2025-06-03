@@ -1,6 +1,7 @@
 ---
 title: Publikationsvariante auswählen
 ---
+
 # Publikationsvariante auswählen
 
 ## Welche Publikationsvarianten ist die richtige für meine Daten?
@@ -26,5 +27,5 @@ Grosse Anzahl Datasets, häufige Aktualisierung:
 
 Geodaten
 : Geodaten sind ein Spezialfall. Um Geodaten publizieren zu können, müssen die Metadaten im
-  Schweizer Geometadaten-Katalog geocat.ch erfasst sein.
-  [Metadaten via geocat.ch publizieren](publikationsvarianten/geodaten.md)
+Schweizer Geometadaten-Katalog geocat.ch erfasst sein.
+[Metadaten via geocat.ch publizieren](publikationsvarianten/geodaten.md)
