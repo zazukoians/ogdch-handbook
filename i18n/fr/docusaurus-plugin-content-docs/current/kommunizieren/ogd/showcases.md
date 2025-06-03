@@ -2,17 +2,17 @@
   :fa:`home`
   ```
 
-   [Handbuch](../../../index.md) 
+  [Handbuch](../../../index.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Kommunizieren](../kommunizieren.md) 
+- [Kommunizieren](../kommunizieren.md)
 
   ```
   :fa:`chevron-right`
   ```
-- [Über unsere Kanäle](../ogd.md) 
+- [Über unsere Kanäle](../ogd.md)
 
   ```
   :fa:`chevron-right`
@@ -40,13 +40,13 @@ Datennutzende werden gebeten, ihre Showcases zu teilen.
 
 #### Vorgaben für Ihren Beitrag
 
-| Titel: Thematischer Inhalt («App», «Datenvisualisierung» oder «Veranstaltung»)   |
-|----------------------------------------------------------------------------------|
-| Beschreibung (1–10 Zeilen mit Kurzbeschrieb des Showcases)                       |
-| Name der Entwickler/innen                                                        |
-| E-Mail-Adresse für die Kontaktaufnahme                                           |
-| URL der Website Ihres Showcases                                                  |
-| Verwendeter Datensatz (bitte die URL von opendata.swiss angeben)                 |
-| Bild                                                                             |
+| Titel: Thematischer Inhalt («App», «Datenvisualisierung» oder «Veranstaltung») |
+| ----------------------------------------------------------------------------------------------------------------- |
+| Beschreibung (1–10 Zeilen mit Kurzbeschrieb des Showcases)                                     |
+| Name der Entwickler/innen                                                                                         |
+| E-Mail-Adresse für die Kontaktaufnahme                                                                            |
+| URL der Website Ihres Showcases                                                                                   |
+| Verwendeter Datensatz (bitte die URL von opendata.swiss angeben)               |
+| Bild                                                                                                              |
 
 [Kommunizieren mit den Datenutzenden](../datennutzende.md)
