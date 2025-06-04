@@ -1,10 +1,10 @@
 ---
-title: Publikationsrichtlinien
+title: Lignes directrices OGD
 ---
 
-# Publikationsrichtlinien
+# Lignes directrices OGD
 
-## Richtlinien für die Veröffentlichung von Open Government Data («OGD-Richtlinien»)
+## Lignes directrices pour la publication de données en libre accès (lignes directrices OGD)
 
 Basierend auf der OGD-Strategie 2019-2023 und gemeinsam mit seinen Stakeholdern
 hat die Geschäftsstelle OGD die «OGD-Richtlinien» definiert. Diese dienen zur
