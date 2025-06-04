@@ -1,3 +1,6 @@
+# Uncomment for local development
+# local_backend: true
+
 backend:
   name: github
   branch: docusaurus
