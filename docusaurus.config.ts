@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Handbuch Opendata.swiss 1.0 Dokumentation',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'images/branding/favicon.ico',
   staticDirectories: ['static'],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
