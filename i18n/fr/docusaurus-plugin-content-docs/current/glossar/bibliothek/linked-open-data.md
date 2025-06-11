@@ -1,17 +1,17 @@
 - ```
- :fa:`home`
- ```
+  :fa:`home`
+  ```
 
- [Handbuch](../../../index.md)
+  [Handbuch](../../../index.md)
 
- ```
- :fa:`chevron-right`
- ```
+  ```
+  :fa:`chevron-right`
+  ```
 - [Bibliothek](../bibliothek.md)
 
- ```
- :fa:`chevron-right`
- ```
+  ```
+  :fa:`chevron-right`
+  ```
 - Linked Open Data
 
 # Linked Open Data
@@ -40,11 +40,11 @@ knowledge sharing, there is space for improvement in facilitating data
 reuse, such as:
 
 - **Comprehensibility**: provide better descriptions of data and
- underlying models or schema
+  underlying models or schema
 - **Accessibility and share-ability**: simplify access, therefore also
- facilitate distribution of up-to-date data
+  facilitate distribution of up-to-date data
 - **Integration**: facilitate the combination of data from different
- sources into a common point of access
+  sources into a common point of access
 
 This document describes an approach known as _Linked Data_, which
 responds to these needs.
@@ -75,38 +75,38 @@ infrastructure, while adhering to its fundamental architecture and
 standards:
 
 1. **Use URIs to name (identify) things.** For instance
- `http://dbpedia.org/resource/Switzerland` was chosen to identify
- the country _Switzerland_ in a data source called _DBPedia_. The well
- established Domain Names System (DNS) ensures that this key is unique
- worldwide.
+  `http://dbpedia.org/resource/Switzerland` was chosen to identify
+  the country _Switzerland_ in a data source called _DBPedia_. The well
+  established Domain Names System (DNS) ensures that this key is unique
+  worldwide.
 2. **Use HTTP URIs so that things can be looked up (interpreted, “dereferenced”).**
- Retrieving a representation of a resource
- identified by a URI is known as _dereferencing_ that URI. By choosing
- an URL as the key for the resource (a URL is an HTTP URI), we can
- follow the link to get information about that resource. For a user,
- it means that by clicking on a URL -
- e.g. `http://dbpedia.org/resource/Switzerland` - she will
- directly access the information rendered by a Web browser. Using the
- same underlying technology, a computer program could access
- structured information, so that the Web works as one database.
+  Retrieving a representation of a resource
+  identified by a URI is known as _dereferencing_ that URI. By choosing
+  an URL as the key for the resource (a URL is an HTTP URI), we can
+  follow the link to get information about that resource. For a user,
+  it means that by clicking on a URL -
+  e.g. `http://dbpedia.org/resource/Switzerland` - she will
+  directly access the information rendered by a Web browser. Using the
+  same underlying technology, a computer program could access
+  structured information, so that the Web works as one database.
 3. **Provide useful information about what a name identifies when it is looked up using**
- [open standards](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/)
- When you open that page in a browser (by dereferencing the URI), all
- the data presented to you comes from the underlying RDF data that is
- rendered here as standard HTML. If you want to have a closer look at
- that RDF data, you can access it through
- [http://dbpedia.org/data/Switzerland](http://dbpedia.org/data/Switzerland).
+  [open standards](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/)
+  When you open that page in a browser (by dereferencing the URI), all
+  the data presented to you comes from the underlying RDF data that is
+  rendered here as standard HTML. If you want to have a closer look at
+  that RDF data, you can access it through
+  [http://dbpedia.org/data/Switzerland](http://dbpedia.org/data/Switzerland).
 4. **Refer to other things using their HTTP URI-based names when publishing data on the Web.**
- On Switzerland page of the DBPedia
- web site, you will find some related data from other data sources.\
- For instance, look for the
- [geodata:Suisse](https://www.geonames.org/2658434/switzerland.html) string, and
- click on it. You will be directed to the page of the same entity,
- Switzerland, on another well known Linked Data source: _GeoNames_.\
- Thanks to the use of universal identifiers, these two different data
- sources were able to link their data. An end-user can now find a
- broad range of information about Switzerland in either of those
- sources.
+  On Switzerland page of the DBPedia
+  web site, you will find some related data from other data sources.\
+  For instance, look for the
+  [geodata:Suisse](https://www.geonames.org/2658434/switzerland.html) string, and
+  click on it. You will be directed to the page of the same entity,
+  Switzerland, on another well known Linked Data source: _GeoNames_.\
+  Thanks to the use of universal identifiers, these two different data
+  sources were able to link their data. An end-user can now find a
+  broad range of information about Switzerland in either of those
+  sources.
 
 ### Explanation
 
@@ -168,17 +168,17 @@ Please click on the text below for more details.
 e.g. PDF
 
 - **Description:**
- make your content available on the Web (whatever format) under an open license
+  make your content available on the Web (whatever format) under an open license
 - **Consumer:**
- - ✔ You can look at it.
- - ✔ You can print it.
- - ✔ You can store it locally (on your hard disk or on an USB stick).
- - ✔ You can enter the data into any other system.
- - ✔ You can change the data as you wish.
- - ✔ You can share the data with anyone you like
+  - ✔ You can look at it.
+  - ✔ You can print it.
+  - ✔ You can store it locally (on your hard disk or on an USB stick).
+  - ✔ You can enter the data into any other system.
+  - ✔ You can change the data as you wish.
+  - ✔ You can share the data with anyone you like
 - **Publisher:**
- - ✔ It’s simple to publish.
- - ✔ You do not have to explain repeatedly to others that they can use your data.
+  - ✔ It’s simple to publish.
+  - ✔ You do not have to explain repeatedly to others that they can use your data.
 
 ```
 :fa:`star`
@@ -191,22 +191,22 @@ e.g. PDF
 e.g. XLS
 
 - **Description:**
- make it available as structured data
- (e.g., Excel instead of image scan of a table)
+  make it available as structured data
+  (e.g., Excel instead of image scan of a table)
 - **Consumer:**
- All you can do with
+  All you can do with
 
- ```
- :fa:`star`
- ```
+  ```
+  :fa:`star`
+  ```
 
- Web data and additionally:
+  Web data and additionally:
 
- - ✔ You can directly process it with proprietary software
-  : to aggregate it, perform calculations, visualise it, etc.
- - ✔ You can export it into another (structured) format.
+  - ✔ You can directly process it with proprietary software
+    : to aggregate it, perform calculations, visualise it, etc.
+  - ✔ You can export it into another (structured) format.
 - **Publisher:**
- - ✔ It’s still simple to publish.
+  - ✔ It’s still simple to publish.
 
 ```
 :fa:`star`
@@ -223,28 +223,28 @@ e.g. XLS
 e.g. CSV
 
 - **Description:**
- make it available in a non-proprietary open
- format (e.g., CSV as well as of Excel)
+  make it available in a non-proprietary open
+  format (e.g., CSV as well as of Excel)
 - **Consumer:**
- All you can do with
-
- ```
- :fa:`star`
- ```
+  All you can do with
 
   ```
   :fa:`star`
   ```
 
- Web data and additionally:
+   ```
+   :fa:`star`
+   ```
 
- - ✔ You can manipulate the data in any way you like,
-  without the need to own any proprietary software package.
+  Web data and additionally:
+
+  - ✔ You can manipulate the data in any way you like,
+    without the need to own any proprietary software package.
 - **Publisher:**
- - ✔ You might need converters
-  or plug-ins to export the data
-  from the proprietary format.
- - It’s still rather simple to publish.
+  - ✔ You might need converters
+    or plug-ins to export the data
+    from the proprietary format.
+  - It’s still rather simple to publish.
 
 ```
 :fa:`star`
@@ -265,44 +265,44 @@ e.g. CSV
 e.g. RDF
 
 - **Description:**
- use URIs to denote things, so that people
- can point at your stuff
+  use URIs to denote things, so that people
+  can point at your stuff
 - **Consumer:**
- All you can do with
-
- ```
- :fa:`star`
- ```
+  All you can do with
 
   ```
   :fa:`star`
   ```
 
-  ```
-  :fa:`star`
-  ```
+   ```
+   :fa:`star`
+   ```
 
- Web data and additionally:
+   ```
+   :fa:`star`
+   ```
 
- - ✔ You can link to it from any other place (on the Web or locally).
- - ✔ You can bookmark it.
- - ✔ You can reuse parts of the data.
- - You may be able to reuse existing tools and libraries,
-  even if they only understand parts of the pattern the publisher used.\
-  warning Understanding the structure of an RDF “Graph” of data can
-  require more effort than tabular (Excel/CSV) or tree (XML/JSON) data.
- - You can combine the data safely with other data. URIs are a
-  global scheme so if two things have the same URI then it’s
-  intentional, and if so that’s well on it’s way to being 5-star data!
+  Web data and additionally:
+
+  - ✔ You can link to it from any other place (on the Web or locally).
+  - ✔ You can bookmark it.
+  - ✔ You can reuse parts of the data.
+  - You may be able to reuse existing tools and libraries,
+    even if they only understand parts of the pattern the publisher used.\
+    warning Understanding the structure of an RDF “Graph” of data can
+    require more effort than tabular (Excel/CSV) or tree (XML/JSON) data.
+  - You can combine the data safely with other data. URIs are a
+    global scheme so if two things have the same URI then it’s
+    intentional, and if so that’s well on it’s way to being 5-star data!
 - **Publisher:**
- - ✔ You have fine-granular control over the data items
-  : and can optimise their access (load balancing, caching, etc.)
- - ✔ Other data publishers can now link into your
-  : data, promoting it to 5 star!
- - You typically invest some time slicing and dicing your data.
- - You’ll need to assign URIs to data items and think
-  about how to represent the data.
- - You need to either find existing patterns to reuse or create your own.
+  - ✔ You have fine-granular control over the data items
+    : and can optimise their access (load balancing, caching, etc.)
+  - ✔ Other data publishers can now link into your
+    : data, promoting it to 5 star!
+  - You typically invest some time slicing and dicing your data.
+  - You’ll need to assign URIs to data items and think
+    about how to represent the data.
+  - You need to either find existing patterns to reuse or create your own.
 
 ```
 :fa:`star`
@@ -327,40 +327,40 @@ e.g. RDF
 e.g. LOD
 
 - **Description:**
- link your data to other data to provide context
+  link your data to other data to provide context
 - **Consumer:**
- All you can do with
-
- ```
- :fa:`star`
- ```
+  All you can do with
 
   ```
   :fa:`star`
   ```
 
-  ```
-  :fa:`star`
-  ```
+   ```
+   :fa:`star`
+   ```
 
-  ```
-  :fa:`star`
-  ```
+   ```
+   :fa:`star`
+   ```
 
- Web data and additionally:
+   ```
+   :fa:`star`
+   ```
 
- - ✔ You can discover more (related) data while consuming the data.
- - ✔ You can directly learn about the data schema.
- - You now have to deal with broken data links, just like 404 errors in web pages.
- - Presenting data from an arbitrary link as fact is as
-  risky as letting people include content from any website in your pages.\
-  Caution, trust and common sense are all still necessary.
+  Web data and additionally:
+
+  - ✔ You can discover more (related) data while consuming the data.
+  - ✔ You can directly learn about the data schema.
+  - You now have to deal with broken data links, just like 404 errors in web pages.
+  - Presenting data from an arbitrary link as fact is as
+    risky as letting people include content from any website in your pages.\
+    Caution, trust and common sense are all still necessary.
 - **Publisher:**
- - ✔ You make your data discoverable.
- - ✔ You increase the value of your data.
- - ✔ Your own organisation will gain the same benefits from the links as the consumers.
- - You’ll need to invest resources to link your data to other data on the Web.
- - You may need to repair broken or incorrect links.
+  - ✔ You make your data discoverable.
+  - ✔ You increase the value of your data.
+  - ✔ Your own organisation will gain the same benefits from the links as the consumers.
+  - You’ll need to invest resources to link your data to other data on the Web.
+  - You may need to repair broken or incorrect links.
 
 ### Use case: libraries
 
@@ -445,22 +445,22 @@ start with an already published dataset for which the legal basis
 question is already solved. It could be either:
 
 - An Excel document that is already made available on one of the web
- pages of your organization
+  pages of your organization
 - A database whose content is already available through a website,
- meaning that its content can be searched by a user but not by a
- machine (lack of API)
+  meaning that its content can be searched by a user but not by a
+  machine (lack of API)
 - Data sets published in reports (tables) that could have an added
- value to be published as row data on the web.
+  value to be published as row data on the web.
 - Open Data not yet published: this would be a rare but very valuable
- case, where a newly open dataset is not published in any form yet
+  case, where a newly open dataset is not published in any form yet
 
 Moreover, preference can be given to:
 
 - Data based on international or national standards
- ([eCH standards](formate-ressourcen.md), for instance)
+  ([eCH standards](formate-ressourcen.md), for instance)
 - Popular data or data with a high re-use potential
 - Data that can be easily combined with other open data, and thus
- provide greater value
+  provide greater value
 
 #### 3. Model the Data
 
@@ -495,17 +495,17 @@ The original document from W3C provides
 [useful guidelines](https://www.w3.org/TR/ld-bp/#HTTP-URIS) about:
 
 - URI Design Principles Provide dereferenceable HTTP URIs (URL) that
- serve as machine-readable representation of the identified resource.\
- Define a URI structure that will last as long as possible by not
- containing anything that could change.
+  serve as machine-readable representation of the identified resource.\
+  Define a URI structure that will last as long as possible by not
+  containing anything that could change.
 - URI Policy for Persistence Define a persistent URI policy and
- implementation plan, which relies on the commitment from the URI
- owner.
+  implementation plan, which relies on the commitment from the URI
+  owner.
 - URI Construction Includes guidance coming from URI strategies applied
- successful by different organizations
+  successful by different organizations
 - Internationalized Resource Identifiers (IRI) If necessary, the use of
- Unicode characters (non-ASCII characters) is possible as long as it
- follows existing standards.
+  Unicode characters (non-ASCII characters) is possible as long as it
+  follows existing standards.
 
 To clarify the notion of URL, URI and IRI:
 
@@ -626,7 +626,7 @@ technical bricks (highlighted in red here above):
 - unambiguous names for resources (for everything): IRIs (URIs, URLs)
 - a common data model to describe the resources: RDF
 - schema for the data based on RDF (common vocabularies, ontologies):
- RDFS, OWL, SKOS
+  RDFS, OWL, SKOS
 - a query language for RDF: SPARQL
 - reasoning logic: OWL, Rules (RIF)
 
@@ -707,28 +707,28 @@ Triples) to a file. This process is called “serialization” and the RDF
 1.1 Primer gives the following list:
 
 - [TURTLE](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-TURTLE)
- and
- [TRIG](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-TRIG)
+  and
+  [TRIG](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-TRIG)
 - [JSON-LD](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-JSON-LD)
- (JSON based)
+  (JSON based)
 - [RDFa](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-RDFA-PRIMER)
- (for HTML embedding)
+  (for HTML embedding)
 - [N-Triples](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-N-TRIPLES)
- and
- [N-Quads](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-N-QUADS)
- (line-based exchange formats)
+  and
+  [N-Quads](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-N-QUADS)
+  (line-based exchange formats)
 - [RDF/XML](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-RDF11-XML)
- (the original 2004 syntax, updated for RDF 1.1)
+  (the original 2004 syntax, updated for RDF 1.1)
 
 The most common ones in 2016 are:
 
 - Turtle to write down RDF Triples in a text file that will have a
- “.ttl” extension (a format that is easily readable by a human and
- thus prefered to the RDF/XML version)
+  “.ttl” extension (a format that is easily readable by a human and
+  thus prefered to the RDF/XML version)
 - JSON-LD to store RDF data in java objects, which is a popular and
- practical format for computer programmers
+  practical format for computer programmers
 - RDFa to add RDF inside HTML pages, the RDF data being not visible to
- end-users but at disposal for crawlers.
+  end-users but at disposal for crawlers.
 
 Turtle is a pretty simple format where each triple is written down.
 
@@ -833,10 +833,10 @@ A W3C generic [list of tools](https://www.w3.org/wiki/Main_Page).
 Programming
 
 - List of libraries for different programming
- languages
+  languages
 - A Semantic Web Primer for Object-Oriented Software
- Developers
- (2006):
+  Developers
+  (2006):
 
 RDF Data
 
@@ -853,29 +853,29 @@ RDF Validators
 SPARQL Tutorials
 
 - Tutorial from
- Euclid
+  Euclid
 - [Video introduction](https://www.youtube.com/watch?v=FvGndkpa4K0)
- from Bob Ducharme (11 min.):
+  from Bob Ducharme (11 min.):
 - Cambridge Semantics: Sparql by
- example
+  example
 - [A tutorial](http://corese.inria.fr/srv/tutorial/sparql) by
- running/completing queries, from the Coreses Project (INRIA):
+  running/completing queries, from the Coreses Project (INRIA):
 - From SQL to
- SPARQL
+  SPARQL
 - Wikidata page with
- examples
- and some prepared queries on the SPARQL
- endpoint
+  examples
+  and some prepared queries on the SPARQL
+  endpoint
 - UniProt SPARQL Endpoint with
- examples
+  examples
 - Tutorial from
- LinkedDataTools
+  LinkedDataTools
 
 SPARQL Endpoints
 
 - [SPARQL EndPoints status](https://sparqles.ai.wu.ac.at/availability)
 - [W3C list](https://www.w3.org/wiki/SparqlEndpoints) (may be out of
- date)
+  date)
 
 SPARQL validators
 
