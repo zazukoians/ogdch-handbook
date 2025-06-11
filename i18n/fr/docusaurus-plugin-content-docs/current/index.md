@@ -2,7 +2,7 @@
 slug: /
 ---
 
-# Bienvenue
+# Willkommen!
 
 ## Vous souhaitez publier des données publiques ouvertes? Nous vous apportons notre soutien!
 
