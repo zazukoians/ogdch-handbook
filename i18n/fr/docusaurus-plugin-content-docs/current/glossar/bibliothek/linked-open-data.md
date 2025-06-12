@@ -7,7 +7,7 @@
   ```
   :fa:`chevron-right`
   ```
-- [Bibliothek](../bibliothek.md)
+- - [Bibliothek](../bibliothek.md)
 
   ```
   :fa:`chevron-right`
@@ -190,9 +190,11 @@ e.g. PDF
 
 e.g. XLS
 
-- **Description:**
-  make it available as structured data
-  (e.g., Excel instead of image scan of a table)
+- e.g. XLS* **Description:**
+    make it available as structured data
+    (e.g., Excel instead of image scan of a table)
+  * **Consumer:**
+    All you can do with
 - **Consumer:**
   All you can do with
 
@@ -222,9 +224,11 @@ e.g. XLS
 
 e.g. CSV
 
-- **Description:**
-  make it available in a non-proprietary open
-  format (e.g., CSV as well as of Excel)
+- e.g. CSV* **Description:**
+    make it available in a non-proprietary open
+    format (e.g., CSV as well as of Excel)
+  * **Consumer:**
+    All you can do with
 - **Consumer:**
   All you can do with
 
@@ -238,8 +242,13 @@ e.g. CSV
 
   Web data and additionally:
 
-  - ✔ You can manipulate the data in any way you like,
-    without the need to own any proprietary software package.
+  - Web data and additionally:* ✔ You can manipulate the data in any way you like,
+      without the need to own any proprietary software package.
+    * **Publisher:**
+    * ✔ You might need converters
+      or plug-ins to export the data
+      from the proprietary format.
+    * It’s still rather simple to publish.
 - **Publisher:**
   - ✔ You might need converters
     or plug-ins to export the data
@@ -264,9 +273,11 @@ e.g. CSV
 
 e.g. RDF
 
-- **Description:**
-  use URIs to denote things, so that people
-  can point at your stuff
+- e.g. RDF* **Description:**
+    use URIs to denote things, so that people
+    can point at your stuff
+  * **Consumer:**
+    All you can do with
 - **Consumer:**
   All you can do with
 
@@ -326,8 +337,10 @@ e.g. RDF
 
 e.g. LOD
 
-- **Description:**
-  link your data to other data to provide context
+- e.g. LOD* **Description:**
+    link your data to other data to provide context
+  * **Consumer:**
+    All you can do with
 - **Consumer:**
   All you can do with
 
@@ -579,7 +592,25 @@ Different methods can be used to provide data access for machines, as:
 
 - Direct URI resolution
 - a [RESTful API](http://www.w3.org/TR/ld-glossary/#rest-api),
-- a [SPARQL endpoint](http://www.w3.org/TR/ld-glossary/#sparql-endpoint)
+- Web data and additionally:* ✔ You can link to it from any other place (on the Web or locally).
+  * ✔ You can bookmark it.
+  * ✔ You can reuse parts of the data.
+  * You may be able to reuse existing tools and libraries,
+    even if they only understand parts of the pattern the publisher used.\
+    warning Understanding the structure of an RDF “Graph” of data can
+    require more effort than tabular (Excel/CSV) or tree (XML/JSON) data.
+  * You can combine the data safely with other data. URIs are a
+    global scheme so if two things have the same URI then it’s
+    intentional, and if so that’s well on it’s way to being 5-star data!
+  * **Publisher:**
+  * ✔ You have fine-granular control over the data items
+    : and can optimise their access (load balancing, caching, etc.)
+  * ✔ Other data publishers can now link into your
+    : data, promoting it to 5 star!
+  * You typically invest some time slicing and dicing your data.
+  * You’ll need to assign URIs to data items and think
+    about how to represent the data.
+  * You need to either find existing patterns to reuse or create your own.
 - via file download
 
 The SPARQL Protocol and RDF Query Language (SPARQL) is the standard
@@ -616,8 +647,8 @@ often illustrated in the form of this “layercake”:
 
 > ![RDF layer cake](/images/linked-open-data/ld-stack.png)
 
-> Figure 3. The layer cake for RDF technologies (Source:
-> [w3.org](https://www.w3.org/Consortium/Offices/Presentations/Overview/#\(40\)))
+> Figure 6. Three different types of databases (Source:
+> [linkeddatatools.com](http://www.linkeddatatools.com/introducing-rdf))
 
 This model has evolved through time, as the standards and tools were
 further developed and tested. Here follows an introduction to the main
