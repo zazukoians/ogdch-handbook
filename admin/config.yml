@@ -1,0 +1,66 @@
+# Uncomment for local development
+# local_backend: true
+
+backend:
+  name: github
+  branch: docusaurus
+  repo: zazukoians/ogdch-handbook
+
+# These lines should *not* be indented
+media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: vorbereiten
+    label: "Vorbereiten"
+    folder: "content/vorbereiten"
+    extension: md
+    widget: "list"
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - name: body
+        label: Body
+        widget: markdown
+  - name: vorbereiten-erst
+    label: "Vorbereiten/Für Erst-Publizierende"
+    folder: "content/vorbereiten/erstpublizierende"
+    extension: md
+    widget: "list"
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - name: body
+        label: Body
+        widget: markdown
+  - name: publizieren
+    label: "Publizieren"
+    folder: "content/publizieren"
+    extension: md
+    widget: "list"
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - name: body
+        label: Body
+        widget: markdown
+  - name: publizieren-erst
+    label: "Publizieren/Für Erst-Publizierende"
+    folder: "content/publizieren/erstpublizierende"
+    extension: md
+    widget: "list"
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - name: body
+        label: Body
+        widget: markdown
+
