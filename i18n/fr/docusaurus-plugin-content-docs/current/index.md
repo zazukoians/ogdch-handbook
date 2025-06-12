@@ -2,7 +2,7 @@
 slug: /
 ---
 
-# Willkommen!
+# Bienvenue
 
 ## Vous souhaitez publier des données publiques ouvertes? Nous vous apportons notre soutien!
 
@@ -56,4 +56,4 @@ kontinuierlich weiterentwickelt. Ihr Feedback, liebe
 Nutzerinnen und Nutzer, ist dafür wesentlich. Haben Sie
 Anregungen zu Inhalten oder Erfahrungen, die Sie gerne
 mit uns teilen möchten?
-[Schreiben Sie uns.](mailto:opendata\(at\)bfs.admin.ch)
+[Schreiben Sie uns.](mailto:opendata\\(at\\)bfs.admin.ch)
