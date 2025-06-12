@@ -614,6 +614,8 @@ Translatable elements are marked as such under usage notes.
   Can be a description, coordinates, a bounding-box or a polygon.\
   **Usage Notes:**
   Can be a description, coordinates, a bounding-box or a polygon.\
+  **Usage Notes:**
+  Can be a description, coordinates, a bounding-box or a polygon.\
   This field currently supports GeoJSON with the
   [LOCN extension](https://www.w3.org/community/locadd/wiki/LOCN_extension:_Metadata) .
   See also: [How should dct:spatial and dct:Location be used?](https://joinup.ec.europa.eu/release/how-should-dctspatial-and-dctlocation-be-used)                                |
@@ -1036,6 +1038,7 @@ NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired
 - **Description:**
   The [terms of use](https://opendata.swiss/de/terms-of-use) indicates for what purpose and in what context
   the data of a distribution can be used: for commercial or for non commercial purposes.\
+  Does it need to be referenced, when it is used?\
   Does it need to be referenced, when it is used?\
   Does it need to be referenced, when it is used? Must permission be obtained for commercial use.\
   These conditions are included in the terms of use statements. See the list below for the exact values.
