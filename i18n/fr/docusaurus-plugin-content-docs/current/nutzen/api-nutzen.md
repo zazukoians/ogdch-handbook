@@ -171,6 +171,7 @@ im [DCAT AP Standard](https://handbook.opendata.swiss/de/content/glossar/bibliot
 `group`
 : Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.\
 Ein Dataset kann mehreren Kategorien angehören.\
+Ein Dataset kann mehreren Kategorien angehören.\
 Entspricht [dcat:theme im DCAT AP Standard](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme).
 
 <a id="api-nutzen-beispiele"></a>
