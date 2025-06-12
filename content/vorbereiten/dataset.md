@@ -1,7 +1,7 @@
 ---
-title: Für jedes Dataset ...
+title: For every dataset
 ---
-# Für jedes Dataset XYZ
+# Für jedes Dataset
 
 ## Welche Schritte sind vor der Publikation eines Datasets nötig?
 
