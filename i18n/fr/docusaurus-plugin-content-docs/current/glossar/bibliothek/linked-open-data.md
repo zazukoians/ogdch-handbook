@@ -101,6 +101,9 @@ standards:
   web site, you will find some related data from other data sources.\
   For instance, look for the
   [geodata:Suisse](https://www.geonames.org/2658434/switzerland.html) string, and
+  click on it.\
+  For instance, look for the
+  [geodata:Suisse](https://www.geonames.org/2658434/switzerland.html) string, and
   click on it. You will be directed to the page of the same entity,
   Switzerland, on another well known Linked Data source: _GeoNames_.\
   Thanks to the use of universal identifiers, these two different data
@@ -190,11 +193,9 @@ e.g. PDF
 
 e.g. XLS
 
-- e.g. XLS* **Description:**
-    make it available as structured data
-    (e.g., Excel instead of image scan of a table)
-  * **Consumer:**
-    All you can do with
+- e.g. XLS\* **Description:**
+  make it available as structured data
+  (e.g., Excel instead of image scan of a table)
 - **Consumer:**
   All you can do with
 
@@ -224,11 +225,9 @@ e.g. XLS
 
 e.g. CSV
 
-- e.g. CSV* **Description:**
-    make it available in a non-proprietary open
-    format (e.g., CSV as well as of Excel)
-  * **Consumer:**
-    All you can do with
+- e.g. CSV\* **Description:**
+  make it available in a non-proprietary open
+  format (e.g., CSV as well as of Excel)
 - **Consumer:**
   All you can do with
 
@@ -242,13 +241,8 @@ e.g. CSV
 
   Web data and additionally:
 
-  - Web data and additionally:* ✔ You can manipulate the data in any way you like,
-      without the need to own any proprietary software package.
-    * **Publisher:**
-    * ✔ You might need converters
-      or plug-ins to export the data
-      from the proprietary format.
-    * It’s still rather simple to publish.
+  - Web data and additionally:\* ✔ You can manipulate the data in any way you like,
+    without the need to own any proprietary software package.
 - **Publisher:**
   - ✔ You might need converters
     or plug-ins to export the data
@@ -273,11 +267,9 @@ e.g. CSV
 
 e.g. RDF
 
-- e.g. RDF* **Description:**
-    use URIs to denote things, so that people
-    can point at your stuff
-  * **Consumer:**
-    All you can do with
+- e.g. RDF\* **Description:**
+  use URIs to denote things, so that people
+  can point at your stuff
 - **Consumer:**
   All you can do with
 
@@ -337,10 +329,8 @@ e.g. RDF
 
 e.g. LOD
 
-- e.g. LOD* **Description:**
-    link your data to other data to provide context
-  * **Consumer:**
-    All you can do with
+- e.g. LOD\* **Description:**
+  link your data to other data to provide context
 - **Consumer:**
   All you can do with
 
@@ -367,6 +357,7 @@ e.g. LOD
   - You now have to deal with broken data links, just like 404 errors in web pages.
   - Presenting data from an arbitrary link as fact is as
     risky as letting people include content from any website in your pages.\
+    Caution, trust and common sense are all still necessary.\
     Caution, trust and common sense are all still necessary.
 - **Publisher:**
   - ✔ You make your data discoverable.

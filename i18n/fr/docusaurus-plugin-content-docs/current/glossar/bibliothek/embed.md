@@ -71,7 +71,7 @@ similar to the
 a feature that already has resource embedding built in, and the ability to
 white-list sites where this may be deployed using a `resource proxy` configuration option.
 
-Note that due to lack of CORS support, we provided an option to use JSONP to mitigate cross-site scripting restrictions. [JSONP is not recommended](\\[https://en.wikipedia.org/wiki/JSONP#Security_concerns]\\(https://en.wikipedia.org/wiki/JSONP#Security_concerns\\)) in current best practices in Web development, and we advise that - if possible - developers should put in place a proxy service, as described [further down](#middleware).
+Note that due to lack of CORS support, we provided an option to use JSONP to mitigate cross-site scripting restrictions. [JSONP is not recommended](\\\[https://en.wikipedia.org/wiki/JSONP#Security_concerns]\\\(https://en.wikipedia.org/wiki/JSONP#Security_concerns\\\)) in current best practices in Web development, and we advise that - if possible - developers should put in place a proxy service, as described [further down](#middleware).
 
 Here is an example of how a search result from _opendata.swiss_ appears in this widget:
 
