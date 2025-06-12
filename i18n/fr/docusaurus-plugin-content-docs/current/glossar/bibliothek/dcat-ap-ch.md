@@ -259,6 +259,7 @@ Translatable elements are marked as such under usage notes.
   A single dataset of the catalog
 - **Usage Notes:**
   Provide at least one dataset per catalog.\
+  Provide a URI per dataset if possible\
   Provide a URI per dataset if possible
 
 <a id="dcat-dataset-identifier"></a>
@@ -610,6 +611,8 @@ Translatable elements are marked as such under usage notes.
 - **Description:**
   Geographical classification of the dataset.
 - **Usage Notes:**
+  Can be a description, coordinates, a bounding-box or a polygon.\
+  **Usage Notes:**
   Can be a description, coordinates, a bounding-box or a polygon.\
   This field currently supports GeoJSON with the
   [LOCN extension](https://www.w3.org/community/locadd/wiki/LOCN_extension:_Metadata) .
@@ -1033,6 +1036,7 @@ NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired
 - **Description:**
   The [terms of use](https://opendata.swiss/de/terms-of-use) indicates for what purpose and in what context
   the data of a distribution can be used: for commercial or for non commercial purposes.\
+  Does it need to be referenced, when it is used?\
   Does it need to be referenced, when it is used? Must permission be obtained for commercial use.\
   These conditions are included in the terms of use statements. See the list below for the exact values.
 - **Usage Notes:**
