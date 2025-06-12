@@ -113,7 +113,7 @@ INTERLIS
 <a id="term-INTERLIS-GML-gemass-eCH-0118"></a>
 
 INTERLIS/GML (gemäss eCH-0118)
-: [eCH-0118](http://www.ech.ch/vechweb/page?p=dossier&amp;amp;documentNumber=eCH-0118)
+: [eCH-0118](http://www.ech.ch/vechweb/page?p=dossier&amp;amp;amp;documentNumber=eCH-0118)
 
 <a id="term-ESRI"></a>
 
