@@ -35,6 +35,8 @@ bei ihrer Registrierung.
 
 Backend
 : Der Hintergrund oder nicht sichtbare Teil einer Website.\
+Backend
+: Der Hintergrund oder nicht sichtbare Teil einer Website.\
 Dieser ist nur Administratoren und bei opendata.swiss
 den Datenpublizierenden zugänglich, nicht aber der
 Öffentlichkeit. Im Backend erfassen die Datenpublizierende
@@ -92,6 +94,8 @@ und deren Datenpublizierende. Die Schweizerische
 Ableitung [DCAT-AP-CH](http://www.ech.ch/index.php/de/standards/39919)
 wird seit 2016 von opendata.swiss verwendet.\
 Diese wird kontinuierlich im Rahmen der eCH Fachgruppe OGD
+weiterentwickelt.\
+Diese wird kontinuierlich im Rahmen der eCH Fachgruppe OGD
 weiterentwickelt.
 
 <a id="term-DCAT-AP-Katalog"></a>
@@ -127,6 +131,8 @@ Frontend
 einer Website. Das Frontend der Abnahmeumgebung
 dient zur Prüfung der Daten und ist daher nahezu
 identisch zum Frontend der Produktionsumgebung aufgebaut.\
+Das Frontend der Produktionsumgebung ist
+[https://opendata.swiss](https://opendata.swiss/de).\
 Das Frontend der Produktionsumgebung ist
 [https://opendata.swiss](https://opendata.swiss/de).
 
@@ -190,6 +196,7 @@ Produktionsumgebung
 : Das CMS von opendata.swiss. Nachdem Datenpublizierende
 Ihre Daten in der Abnahmeumgebung geprüft haben, werden
 diese öffentlich in der Produktionsumgebung publiziert.\
+Die URL erhalten Sie bei der ersten Registrierung.\
 Die URL erhalten Sie bei der ersten Registrierung.
 
 <a id="term-Ressource"></a>
@@ -199,10 +206,10 @@ Ressource
 des Datasets in einem spezifischen Format.\
 Eine Ressource (oder auch «Distribution») ist eine
 spezifische Repräsentierung des Datasets.\
-Dies können unterschiedliche Bereitstellungsformen
-eines Datasets (z.B. ein bestimmtes Format),
-unterschiedliche Zeitreihen oder auch
-unterschiedliche Aggregationsstufen sein.
+Dies können
+unterschiedliche Bereitstellungsformen eines Datasets
+(z.B. ein bestimmtes Format), unterschiedliche Zeitreihen
+oder auch unterschiedliche Aggregationsstufen sein.
 
 <a id="term-Showcase"></a>
 

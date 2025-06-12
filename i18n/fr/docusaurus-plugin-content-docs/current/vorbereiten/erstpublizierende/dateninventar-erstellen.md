@@ -32,6 +32,7 @@ Diese Fragen helfen Ihnen bei dieser Kategorisierung:
   werden die Daten publiziert?
 - Wer verwaltet diese Daten, wer ist für die Daten zuständig?
 - Wie erreichen Userinnen und User heute diese Daten?\
+  Wie erreichen Userinnen und User heute diese Daten?\
   Sind die Daten bereits im Web publiziert, beispielsweise auf Daten-Portalen oder auf Websites?
 - Welche Daten sind von besonders hoher strategischer Bedeutung?\
   Für welche Daten besteht eine besonders grosse Nachfrage?

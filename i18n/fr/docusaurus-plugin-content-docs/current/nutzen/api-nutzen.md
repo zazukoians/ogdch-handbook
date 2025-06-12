@@ -147,6 +147,7 @@ Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:
 
 `organization`
 : Entspricht der [datenpublizierenden Organisation](https://opendata.swiss/de/organization).\
+Jedes Dataset wird von genau einer Organisation publiziert.\
 Jedes Dataset wird von genau einer Organisation publiziert. Eine Organisation
 kann jedoch Unterorganisationen haben.
 
@@ -156,6 +157,7 @@ die Metadaten zu einem Bündel von Ressourcen.
 
 `id`
 : Entspricht in der Regel dem [Slug](../glossar/begriffe.md#term-Slug) des Datasets oder der Organisation auf opendata.swiss.\
+Bei Ausnahmefällen konsultieren Sie bitte die CKAN-Dokumentation.\
 Bei Ausnahmefällen konsultieren Sie bitte die CKAN-Dokumentation.
 
 `resource`, `distribution`
@@ -168,6 +170,7 @@ im [DCAT AP Standard](https://handbook.opendata.swiss/de/content/glossar/bibliot
 
 `group`
 : Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.\
+Ein Dataset kann mehreren Kategorien angehören.\
 Entspricht [dcat:theme im DCAT AP Standard](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme).
 
 <a id="api-nutzen-beispiele"></a>

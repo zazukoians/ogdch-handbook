@@ -11,6 +11,7 @@ Folgende Punkte müssen Sie dabei beachten:
 
 - opendata.swiss ist ein Metadatenkatalog. Hier wird auf publizierte Open Government
   Data in standardisierter, leicht verständlicher und wiederverwendbarer Form referenziert.\
+  Somit steigert sich ihre Sichtbarkeit.\
   Somit steigert sich ihre Sichtbarkeit.
 - Die [Geschäftsstelle OGD](../glossar/begriffe.md#term-Geschaftsstelle-Open-Government-Data-OGD)
   übernimmt das Controlling des gesamten Katalogs. Es ist allerdings
@@ -23,6 +24,7 @@ Folgende Punkte müssen Sie dabei beachten:
   ihre Datasets und sämtliche weitere Informationen ausgiebig zu prüfen
   und allfällige Änderungen vorzunehmen. Ab der zweiten Publikation können
   Datenpublizierende immer wieder neue Daten selbstständig publizieren.\
+  Die Abnahmeumgebung steht jederzeit für Test-Publikationen zur Verfügung.\
   Die Abnahmeumgebung steht jederzeit für Test-Publikationen zur Verfügung.
 - Das User-Management wird zentral von der
   [Geschäftsstelle OGD](../glossar/begriffe.md#term-Geschaftsstelle-Open-Government-Data-OGD)
